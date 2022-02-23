@@ -35,9 +35,9 @@ function App() {
         <div className="inner-header">
           {/* <!--colored-lines--> */}
           <div className="color-lines row no-gutters">
-            <div className="col-4 bg-red"></div>
-            <div className="col-4 bg-purple"></div>
-            <div className="col-4 bg-green"></div>
+            <div className="col-4 bg-blue"></div>
+            <div className="col-4 bg-black"></div>
+            <div className="col-4 bg-yellow"></div>
           </div>
           {/* <!--upper-nav--> */}
           <div className="upper-nav">
@@ -103,7 +103,7 @@ function App() {
                     href="index-creative-startup.html"
                   >
                     <img
-                      src="./assets/creative-startup/img/logo-black.png"
+                      src="./assets/creative-startup/img/logo.png"
                       alt="logo"
                     />
                   </a>
@@ -130,7 +130,7 @@ function App() {
                             className="nav-link scroll"
                             href="#company-portfolio-section"
                           >
-                            PORTFOLIO
+                            SERVICES
                           </a>
                         </li>
                         <li className="nav-item">
@@ -138,12 +138,12 @@ function App() {
                             className="nav-link scroll"
                             href="#testimonial-sec"
                           >
-                            CLIENTS
+                            EXPERIENCE
                           </a>
                         </li>
                         <li className="nav-item">
                           <a className="nav-link scroll" href="#blog-sec">
-                            BLOG
+                            PRESS ROOM
                           </a>
                         </li>
                         <li className="nav-item">
@@ -207,8 +207,9 @@ function App() {
                     className="navbar-brand"
                   >
                     <img
-                      src="./assets/creative-startup/img/logo.png"
+                      src="./assets/creative-startup/img/white-logo.png"
                       alt="logo"
+                      width={150}
                     />
                   </a>
                 </div>
@@ -317,7 +318,7 @@ function App() {
               <div className="slider-slide">
                 <div className="slider-inner-content">
                   <h4 className="slide-heading">
-                    CREATIVE <span>DIGITAL AGENCY</span>
+                    The World's <span>#1 Naming Company</span>
                   </h4>
                   <p className="slide-text">
                     Lorem ipsum is simply dummy text of the printing and
