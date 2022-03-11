@@ -313,6 +313,10 @@ ul {
 .padding-top {
   padding-top: 120px;
 }
+.margin-top {
+  margin-top: 120px;
+}
+
 .padding-bottom {
   padding-bottom: 120px;
 }
@@ -1203,6 +1207,14 @@ header
 .about-sec {
   padding-top: 10px;
 }
+
+.bg-gray {
+  background-color: rgb(126, 126, 126);
+  height: auto;
+  /* vertical-align: center; */
+  padding: 30px 70px;
+}
+
 .about-sec .about-overlay {
   position: absolute;
   display: block;
@@ -1778,7 +1790,7 @@ header
   margin-top: 10px;
 }
 
-/* ===================================
+/* ===================================   
       Contact sec css
 ====================================== */
 .contact-sec .heading {
@@ -1787,7 +1799,7 @@ header
   margin-bottom: 40px;
 }
 .contact-sec .contact-form {
-  width: 95%;
+  /* width: 95%; */
 }
 .contact-sec .contact-form input {
   color: #8799a3;
@@ -1795,6 +1807,15 @@ header
   height: 50px;
   padding: 25px;
 }
+
+.select {
+  color: #303233;
+  font-size: 16px;
+  width: 100%;
+  height: 50px;
+  padding-left: 23px;
+}
+
 .contact-sec .contact-form .form-control {
   border-radius: 0;
   border: solid 2px #eceef2;
@@ -1803,6 +1824,7 @@ header
   color: #8799a3;
   font-size: 16px;
 }
+
 .contact-sec .contact-form textarea {
   padding: 13px;
   padding-left: 25px;

@@ -49,8 +49,8 @@ export default function () {
             {/* <!--Text--> */}
             <div className="col-lg-6 text-center text-lg-right">
               <p className="company-about fadeIn">
-                © 2020 MegaOne. Made With Love By
-                <a href="javascript:void(0);">Themesindustry</a>
+                © 2022 Brand Institute Inc.
+                <a href="javascript:void(0);"></a>
               </p>
             </div>
           </div>

@@ -13,9 +13,13 @@ export default function TeamSection() {
                   WE HAVE <span>AMAZING TEAM</span>
                 </h4>
                 <p className="text">
-                  Lorem ipsum is simply dummy text of the printing and
-                  typesetting. Lorem Ipsum has been the industry’s standard
-                  dummy.
+                  To exceed our client’s expectations every day by providing the
+                  highest quality deliverables supported by outstanding service
+                  and unparalleled expertise, at an exceptional value; and to
+                  support our team of experts with the most sophisticated,
+                  leading-edge infrastructure, resulting in innovative, next
+                  generation nomenclature offerings, and a supportive working
+                  environment.
                 </p>
               </div>
             </div>
@@ -25,7 +29,7 @@ export default function TeamSection() {
                   <div className="item text-center">
                     <div className="team-box">
                       <div className="img-holder position-relative">
-                        <img src="./assets/creative-startup/img/team1.jpg" />
+                        <img src="https://www.brandinstitute.com/wp-content/uploads/2019/11/jd-new.jpg" />
                         <div className="overlay d-flex justify-content-center align-items-center">
                           {/* <!--Team Social--> */}
                           <ul className="team-social">
@@ -77,15 +81,15 @@ export default function TeamSection() {
                         </div>
                       </div>
                       <div className="team-info">
-                        <h4 className="team-name">Eden Wooderburg</h4>
-                        <p className="team-designation">Creative Head</p>
+                        <h4 className="team-name">James L. Dettore, M.A</h4>
+                        <p className="team-designation">Chairman & Ceo</p>
                       </div>
                     </div>
                   </div>
                   <div className="item text-center">
                     <div className="team-box">
                       <div className="img-holder position-relative">
-                        <img src="./assets/creative-startup/img/team2.jpg" />
+                        <img src="https://www.brandinstitute.com/wp-content/uploads/2019/11/web-bill.jpg" />
                         <div className="overlay d-flex justify-content-center align-items-center">
                           {/* <!--Team Social--> */}
                           <ul className="team-social">
@@ -137,8 +141,10 @@ export default function TeamSection() {
                         </div>
                       </div>
                       <div className="team-info">
-                        <h4 className="team-name">Angelo Walking</h4>
-                        <p className="team-designation">Design Lead</p>
+                        <h4 className="team-name">William Johnson</h4>
+                        <p className="team-designation">
+                          Co-Chief Executive Officer & President
+                        </p>
                       </div>
                     </div>
                   </div>

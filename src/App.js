@@ -1,6 +1,6 @@
 import AboutSection from "./components/AboutSection";
 import BlogSection from "./components/BlogSection";
-import ContactSection from "./components/ContactSection";
+import ContactSection from "./components/ContactSection/ContactSection";
 import Footer from "./components/Footer";
 import Header from "./components/Navbar";
 import PortfolioSection from "./components/PortfolioSection";
@@ -11,6 +11,7 @@ import SponsersSection from "./components/SponsersSection";
 import StatsSection from "./components/StatsSection";
 import TeamSection from "./components/TeamSection";
 import TestimonialSection from "./components/TestimonialSection";
+import Services from "./components/Services";
 function App() {
   return (
     <>
@@ -23,6 +24,7 @@ function App() {
       <PortfolioSection />
       <TestimonialSection />
       <SponsersSection />
+      <Services />
       <BlogSection />
       <ContactSection />
       <Footer />

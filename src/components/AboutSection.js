@@ -48,21 +48,18 @@ export default function AboutSection() {
               <div className="about-content wow fadeInRight">
                 <div className="about-inner-content">
                   <h4 className="heading">
-                    WE ARE <span>DIGITAL AGENCY</span>
+                    Where Great Brands<span> Begin!</span>
                   </h4>
                   <p className="text">
-                    Lorem ipsum is simply dummy text of the printing and
-                    typesetting. Lorem Ipsum has been the industry’s standard
-                    dummy. Lorem Ipsum has been the industry’s standard dummy.
-                    Lorem ipsum is simply dummy text of the printing and
-                    typesetting. Lorem Ipsum has been the industry’s standard
-                    dummy. Lorem Ipsum has been the industry’s standard dummy.
+                    Founded in 1993, Brand Institute (BI) was created on this
+                    principle: provide the highest quality name development
+                    services, produced and presented by the most experienced
+                    professionals, in a timely manner, and at a competitive
+                    price. As we strive to deliver industry-leading nomenclature
+                    services, we are constantly adapting to our clients’ needs
+                    to deliver greater value and successful outcomes.
                   </p>
-                  <p className="text">
-                    Lorem ipsum is simply dummy text of the printing and
-                    typesetting. Lorem Ipsum has been the industry’s standard
-                    dummy. Lorem Ipsum has been the industry’s standard dummy.
-                  </p>
+
                   <a href="#about-sec" className="btn anim-btn rounded-pill">
                     LEARN MORE <span></span>
                     <span></span>
@@ -70,6 +67,45 @@ export default function AboutSection() {
                     <span></span>
                   </a>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* test  */}
+      <section className="blog-sec" id="">
+        <div className="left-overlay"></div>
+        <div className="container position-relative">
+          <div className="blog-inner-overlay"></div>
+          <div className="row blog-area">
+            <div className="col-12 col-lg-5 d-flex align-items-center text-center text-lg-left">
+              <div className="blog-detail wow fadeInLeft">
+                <h4 className="heading">
+                  Our<span>Mission</span>
+                </h4>
+                <p className="text">
+                  To provide best-in-class strategy, name development, trademark
+                  screening, market/safety research and visual identity services
+                  to our valued, global clientele, delivered by 300+ of the most
+                  experienced and forward-thinking branding professionals in our
+                  industry.
+                </p>
+              </div>
+            </div>
+            <div className="col-12 col-lg-6 offset-lg-1">
+              <div className="blog-img wow bg-gray fadeInRight">
+                <h4 className="heading">
+                  Our<span>Vision</span>
+                </h4>
+                <p className="text">
+                  To maintain and grow our leadership role in nomenclature and
+                  brand identity development by always listening and responding
+                  promptly to our client’s needs, fostering cross-functional
+                  “internal” team collaboration, advancing the quality of our
+                  services via in-house departmental experts, leading
+                  technology, and providing the industry’s most innovative,
+                  proven and results-driven methodology.
+                </p>
               </div>
             </div>
           </div>
