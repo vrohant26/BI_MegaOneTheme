@@ -1,4 +1,4 @@
-import AboutSection from "./components/AboutSection";
+import Services from "./components/Services";
 import ContactSection from "./components/ContactSection/ContactSection";
 import Footer from "./components/Footer";
 import Header from "./components/Navbar";
@@ -16,7 +16,7 @@ function App() {
       <Preloader />
       <Header />
       <SliderSection />
-      <AboutSection />
+      <Services />
       <StatsSection />
       <TeamSection />
       <PressRoom />

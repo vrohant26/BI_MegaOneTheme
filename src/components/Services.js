@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function AboutSection() {
+export default function Services() {
   return (
     <>
       <section className="about-sec pt-9" id="about-sec">
