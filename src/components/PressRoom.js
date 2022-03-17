@@ -72,6 +72,12 @@ export default function PressRoom() {
 
                   <li className="listItem">Fact Sheet for Media</li>
                 </ul>
+                <a href="#" className="btn mt-5 anim-btn rounded-pill">
+                  VIEW MORE <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </a>
               </div>
             </div>
             {/* <div className="col-12 col-lg-6"> */}
