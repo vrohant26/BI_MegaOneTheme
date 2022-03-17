@@ -20,13 +20,12 @@ export default function Navbar() {
                   <ul className="top-personal-info">
                     <li>
                       <a href="#">
-                        <i className="las la-phone"></i> (305) 374-2500
+                        <i className="las la-phone"></i> +1 631 123 4567
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i className="las la-envelope"></i>{" "}
-                        rsupport@brandinstitute.com
+                        <i className="las la-envelope"></i> email@website.com
                       </a>
                     </li>
                   </ul>
@@ -34,34 +33,22 @@ export default function Navbar() {
                 <div className="col-6 text-right">
                   <ul className="top-social-links">
                     <li>
-                      <a
-                        href="https://www.facebook.com/BrandInstituteInc"
-                        className="link-holder fb"
-                      >
+                      <a href="#" className="link-holder fb">
                         <i className="lab la-facebook-f"></i>
                       </a>
                     </li>
                     <li>
-                      <a
-                        href="https://twitter.com/BrandInstitute"
-                        className="link-holder twit"
-                      >
+                      <a href="#" className="link-holder twit">
                         <i className="lab la-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a
-                        href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQG7eGIaSr-IDgAAAX93pangBl0_jO3f1AMh1z8pk5nO5FI1fq3a87l751sqopgsmB_xA5nJssq7K2Jk29Qu-xzPI579yUlhTWo8L8OT2zQYmQf-BRk5uL7XHUBx0ciLJlrnTfQ=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fbrand-institute"
-                        className="link-holder link-in"
-                      >
+                      <a href="#" className="link-holder link-in">
                         <i className="lab la-linkedin-in"></i>
                       </a>
                     </li>
                     <li>
-                      <a
-                        href="https://www.instagram.com/brand_institute/"
-                        className="link-holder insta"
-                      >
+                      <a href="#" className="link-holder insta">
                         <i className="lab la-instagram"></i>
                       </a>
                     </li>
@@ -107,15 +94,12 @@ export default function Navbar() {
                           </a>
                         </li>
                         <li className="nav-item">
-                          <a className="nav-link scroll" href="#about-sec">
+                          <a className="nav-link scroll" href="">
                             ABOUT
                           </a>
                         </li>
                         <li className="nav-item">
-                          <a
-                            className="nav-link scroll"
-                            href="#Services-Section "
-                          >
+                          <a className="nav-link scroll" href="#about-sec">
                             SERVICES
                           </a>
                         </li>
@@ -128,7 +112,10 @@ export default function Navbar() {
                           </a>
                         </li>
                         <li className="nav-item">
-                          <a className="nav-link scroll" href="#blog-sec">
+                          <a
+                            className="nav-link scroll"
+                            href="#company-portfolio-section"
+                          >
                             PRESS ROOM
                           </a>
                         </li>
@@ -213,10 +200,7 @@ export default function Navbar() {
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a
-                          className="nav-link scroll"
-                          href="#company-portfolio-section"
-                        >
+                        <a className="nav-link scroll" href="">
                           SERVICES
                         </a>
                       </li>
@@ -226,7 +210,10 @@ export default function Navbar() {
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link scroll" href="#blog-sec">
+                        <a
+                          className="nav-link scroll"
+                          href="#company-portfolio-section"
+                        >
                           PRESSROOM
                         </a>
                       </li>

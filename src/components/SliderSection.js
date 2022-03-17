@@ -18,8 +18,9 @@ export default function SliderSection() {
                     The World's <span>#1 Naming Company</span>
                   </h4>
                   <p className="slide-text">
-                    Why do companies choose Brand Institute? Our people, our
-                    process and a proven track record of exceptional results.
+                    Lorem ipsum is simply dummy text of the printing and
+                    typesetting. Lorem Ipsum has been the industry’s standard
+                    dummy. Lorem Ipsum has been the industry’s standard dummy.
                   </p>
                   <a
                     href="#about-sec"

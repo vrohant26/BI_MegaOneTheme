@@ -13,13 +13,9 @@ export default function TeamSection() {
                   WE HAVE <span>AMAZING TEAM</span>
                 </h4>
                 <p className="text">
-                  To exceed our client’s expectations every day by providing the
-                  highest quality deliverables supported by outstanding service
-                  and unparalleled expertise, at an exceptional value; and to
-                  support our team of experts with the most sophisticated,
-                  leading-edge infrastructure, resulting in innovative, next
-                  generation nomenclature offerings, and a supportive working
-                  environment.
+                  Lorem ipsum is simply dummy text of the printing and
+                  typesetting. Lorem Ipsum has been the industry’s standard
+                  dummy.
                 </p>
               </div>
             </div>

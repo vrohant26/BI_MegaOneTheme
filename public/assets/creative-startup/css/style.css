@@ -323,7 +323,7 @@ ul {
 .heading {
   color: #ffffff;
   font-family: Oswald, sans-serif;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 700;
   margin-bottom: 50px;
 }
@@ -1218,12 +1218,13 @@ header
 .about-sec .about-overlay {
   position: absolute;
   display: block;
-  top: 10px;
+  top: 50px;
   right: 0;
   bottom: 0;
   left: 60%;
   background-color: #ff8100;
 }
+
 .about-sec .services-area {
   /*background-color:#554c86;*/
   display: flex;
@@ -1526,7 +1527,7 @@ header
 /***********PORTFOLIO CSS***********/
 /***********************************/
 .portfolio-sec {
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   /*transition: .8s ease;*/
 }
 .portfolio-sec .container {
@@ -1764,11 +1765,11 @@ header
         Blog sec css
 ====================================== */
 .blog-sec {
-  padding-top: 120px;
+  /* padding-top: 120px; */
 }
 .blog-sec .left-overlay {
   background-color: #ff8100;
-  top: 120px;
+  /* top: 120px; */
 }
 
 .blog-sec .blog-area {
@@ -2799,4 +2800,64 @@ header
   .slider-area .slider-arrows {
     right: -11%;
   }
+}
+
+/***********************************/
+/********Custom css********/
+/***********************************/
+
+.listItem {
+  list-style: none;
+  font-weight: 600;
+  color: white;
+  padding: 10px 0;
+}
+
+.listItem:hover {
+  cursor: pointer;
+  /* color: rgb(231, 231, 231); */
+  border-bottom: 2px solid rgba(226, 226, 226, 0.603);
+}
+
+.activeNews {
+  border-bottom: 2px solid rgb(231, 231, 231);
+}
+
+.articles {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  /* height: 100%; */
+  background-color: white;
+  border: 3px solid #003082;
+}
+
+.news-card {
+  padding: 15px 10px;
+  border-bottom: 1px solid rgb(219, 219, 219);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.date {
+  font-size: 14px;
+  color: gray;
+}
+
+.title {
+  color: #003082;
+}
+
+.title:hover {
+  cursor: pointer;
+}
+
+.sub-text {
+  color: black;
+}
+
+.pt-9 {
+  padding-top: 50px;
 }
