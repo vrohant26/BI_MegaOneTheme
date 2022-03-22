@@ -16,9 +16,9 @@ function App() {
       <Preloader />
       <Navbar />
       <SliderSection />
+      <SponsersSection />
       <StatsSection />
       <TeamSection />
-      <SponsersSection />
       <Services />
       <PressRoom />
       <TestimonialSection />

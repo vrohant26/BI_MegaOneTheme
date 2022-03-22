@@ -1749,6 +1749,7 @@ header
 ====================================== */
 .sponser-tags .item {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   cursor: pointer;
@@ -2912,6 +2913,11 @@ header
 .partners-logo > img {
   width: 260px;
   padding-bottom: 10px;
+}
+
+.divider {
+  margin-top: 50px;
+  border-bottom: 2px solid rgb(231, 231, 231);
 }
 
 @media screen and (max-width: 767px) {

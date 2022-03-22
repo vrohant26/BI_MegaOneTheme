@@ -203,6 +203,7 @@ export default function SliderSection() {
             </p>
           </div>
         </div>
+        <div className="divider"></div>
       </div>
 
       <div className="container pt-9">
@@ -233,6 +234,7 @@ export default function SliderSection() {
             </div>
           </div>
         </div>
+        <div className="divider"></div>
       </div>
 
       <div className="position-relative pt-9">
@@ -253,6 +255,7 @@ export default function SliderSection() {
               </div>
             </div>
           </div>
+          <div className="divider"></div>
         </div>
       </div>
     </>
