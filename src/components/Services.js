@@ -3,7 +3,7 @@ import React from "react";
 export default function Services() {
   return (
     <>
-      <section className="about-sec pt-9" id="about-sec">
+      <section className="about-sec " id="about-sec">
         <div className="about-overlay "></div>
         <div className="container">
           <div className="row">

@@ -769,15 +769,12 @@ header
   background: #1e3e7de0;
 }
 .side-menu {
+  background: #1e3e7de0;
   width: 100%;
   position: fixed;
   right: 0;
   top: 0;
   bottom: 0;
-  /*background: rgba(247, 28, 82, 0.6);*/
-  background-image: url("../img/side-menu.jpg");
-  background-size: cover;
-  background-position: center;
   z-index: 2032;
   height: 100%;
   -webkit-transform: translate3d(0, 100%, 0);
@@ -1218,7 +1215,7 @@ header
 .about-sec .about-overlay {
   position: absolute;
   display: block;
-  top: 50px;
+  top: 10px;
   right: 0;
   bottom: 0;
   left: 60%;
@@ -2510,6 +2507,7 @@ header
   .heading {
     font-size: 44px;
   }
+
   .slider-area .slider-arrows {
     display: none;
   }
@@ -2841,6 +2839,11 @@ header
   gap: 5px;
 }
 
+.news-card:hover {
+  background-color: #b9e9fc;
+  cursor: pointer;
+}
+
 .date {
   font-size: 14px;
   color: gray;
@@ -2850,14 +2853,78 @@ header
   color: #003082;
 }
 
-.title:hover {
-  cursor: pointer;
-}
-
 .sub-text {
   color: black;
 }
 
 .pt-9 {
-  padding-top: 50px;
+  padding-top: 100px;
+}
+
+.approvals {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  /* border-bottom: 1px solid rgb(219, 219, 219); */
+}
+
+.approvals .heading,
+.sponser-sec .heading {
+  font-size: 40px;
+  color: #000;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.countries,
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.box {
+  width: 170px;
+  margin-bottom: 20px;
+  color: rgb(139, 139, 139);
+  text-align: center;
+}
+
+.desc > p {
+  color: rgb(87, 87, 87);
+  text-align: left;
+  font-size: 17px;
+  line-height: 30px;
+}
+.center {
+  max-width: 1280px;
+  margin: 0px auto;
+}
+
+.partners-logo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.partners-logo > img {
+  width: 260px;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .countries {
+    display: none;
+  }
+  .approvals .heading {
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+
+  .james img {
+    width: 300px;
+    margin-bottom: 20px;
+  }
 }

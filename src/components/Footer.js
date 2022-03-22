@@ -1,6 +1,7 @@
 import React from "react";
 
 export default function () {
+  const date = new Date().getFullYear();
   return (
     <>
       <footer className="footer-style-1">
@@ -49,8 +50,7 @@ export default function () {
             {/* <!--Text--> */}
             <div className="col-lg-6 text-center text-lg-right">
               <p className="company-about fadeIn">
-                © 2020 MegaOne. Made With Love By
-                <a href="javascript:void(0);">Themesindustry</a>
+                © {date} Brand Institute Inc.
               </p>
             </div>
           </div>

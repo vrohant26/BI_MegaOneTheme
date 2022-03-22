@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Leave_a_message() {
+export default function LeaveaMessage() {
   return (
     <>
       <div className="col-12 col-lg-6">

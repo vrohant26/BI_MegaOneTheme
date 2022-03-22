@@ -17,6 +17,12 @@ export default function TeamSection() {
                   typesetting. Lorem Ipsum has been the industry’s standard
                   dummy.
                 </p>
+                <a href="#" className="btn mt-5 anim-btn rounded-pill">
+                  VIEW TEAM <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </a>
               </div>
             </div>
             <div className="col-12 col-lg-8">

@@ -39,7 +39,10 @@ export default function TestimonialSection() {
                           purus.
                         </p>
                         <div className="img-holder">
-                          <img src="./assets/creative-startup/img/test1.jpg" />
+                          <img
+                            src="./assets/creative-startup/img/test1.jpg"
+                            alt="..."
+                          />
                         </div>
                         <h4 className="user-name">Sara Williams</h4>
                       </div>
@@ -55,7 +58,10 @@ export default function TestimonialSection() {
                           purus.
                         </p>
                         <div className="img-holder">
-                          <img src="./assets/creative-startup/img/test2.jpg" />
+                          <img
+                            src="./assets/creative-startup/img/test2.jpg"
+                            alt="..."
+                          />
                         </div>
                         <h4 className="user-name">Julia Miltese</h4>
                       </div>

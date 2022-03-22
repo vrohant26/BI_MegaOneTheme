@@ -1,7 +1,7 @@
 import Services from "./components/Services";
 import ContactSection from "./components/ContactSection/ContactSection";
 import Footer from "./components/Footer";
-import Header from "./components/Navbar";
+import Navbar from "./components/Navbar";
 import PressRoom from "./components/PressRoom";
 import Preloader from "./components/Preloader";
 import ScrollTop from "./components/ScrollTop";
@@ -14,13 +14,13 @@ function App() {
   return (
     <>
       <Preloader />
-      <Header />
+      <Navbar />
       <SliderSection />
-      <Services />
       <StatsSection />
       <TeamSection />
-      <PressRoom />
       <SponsersSection />
+      <Services />
+      <PressRoom />
       <TestimonialSection />
       <ContactSection />
       <Footer />

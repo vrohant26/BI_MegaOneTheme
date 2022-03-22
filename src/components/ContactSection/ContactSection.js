@@ -1,5 +1,5 @@
 import React from "react";
-import Leave_a_message from "./Leave_a_message";
+import LeaveaMessage from "./LeaveaMessage";
 import Contact from "./Contact";
 
 export default function ContactSection() {
@@ -12,7 +12,7 @@ export default function ContactSection() {
         <div className="container">
           <div className="row">
             <Contact />
-            <Leave_a_message />
+            <LeaveaMessage />
           </div>
         </div>
       </section>

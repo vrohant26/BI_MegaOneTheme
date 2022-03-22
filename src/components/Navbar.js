@@ -1,6 +1,7 @@
 import React from "react";
 
 export default function Navbar() {
+  const date = new Date().getFullYear();
   return (
     <>
       {/* <!--Header Start--> */}
@@ -94,7 +95,7 @@ export default function Navbar() {
                           </a>
                         </li>
                         <li className="nav-item">
-                          <a className="nav-link scroll" href="">
+                          <a className="nav-link scroll" href="#stats-sec">
                             ABOUT
                           </a>
                         </li>
@@ -195,12 +196,12 @@ export default function Navbar() {
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link scroll" href="#about-sec">
+                        <a className="nav-link scroll" href="#stats-sec">
                           ABOUT
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link scroll" href="">
+                        <a className="nav-link scroll" href="#about-sec">
                           SERVICES
                         </a>
                       </li>
@@ -214,7 +215,7 @@ export default function Navbar() {
                           className="nav-link scroll"
                           href="#company-portfolio-section"
                         >
-                          PRESSROOM
+                          PRESS ROOM
                         </a>
                       </li>
                       <li className="nav-item">
@@ -265,9 +266,7 @@ export default function Navbar() {
                         </a>
                       </li>
                     </ul>
-                    <p className="text-white">
-                      &copy; 2020 MegaOne. Made With Love by Themesindustry
-                    </p>
+                    <p className="text-white">© {date} Brand Institute Inc.</p>
                   </div>
                 </div>
               </div>
