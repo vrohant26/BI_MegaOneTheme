@@ -1,10 +1,12 @@
 import React from "react";
 
 export default function PressRoom() {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+
   return (
     <>
       <section
-        className="portfolio-sec company-portfolio-section padding-top"
+        className="portfolio-sec slider-area company-portfolio-section padding-top"
         id="company-portfolio-section"
       >
         <div className="container">
@@ -56,7 +58,7 @@ export default function PressRoom() {
         <div className="container position-relative">
           <div className="blog-inner-overlay"></div>
           <div className="row blog-area">
-            <div className="col-12 col-lg-3 d-flex align-items-center  text-center text-lg-left">
+            <div className="col-12 col-lg-3 d-flex  justify-content-center text-center text-lg-left">
               <div className="blog-detail  wow fadeInLeft">
                 <h5 className="heading">All News</h5>
                 <ul className="list-group">
@@ -72,7 +74,7 @@ export default function PressRoom() {
 
                   <li className="listItem">Fact Sheet for Media</li>
                 </ul>
-                <a href="#" className="btn mt-5 anim-btn rounded-pill">
+                <a href="!#" className="btn mt-5 anim-btn rounded-pill">
                   VIEW MORE <span></span>
                   <span></span>
                   <span></span>

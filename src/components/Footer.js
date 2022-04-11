@@ -1,54 +1,41 @@
 import React from "react";
 
-export default function () {
+export default function Footer() {
   const date = new Date().getFullYear();
   return (
     <>
-      <footer className="footer-style-1">
+      <div className="color-lines mt-5  row no-gutters">
+        <div className="col-4 bg-blue"></div>
+        <div className="col-4 bg-blue"></div>
+        <div className="col-4 bg-blue"></div>
+      </div>
+      <footer className="my-5">
+        {/* <div className="divider  mb-5"></div> */}
         <div className="container">
           <div className="row align-items-center">
             {/* <!--Social--> */}
-            <div className="col-lg-6">
-              <div className="footer-social text-center text-lg-left">
+            <div className="col-lg-4">
+              <div className="footer-social text-center text-lg-left mb-2">
                 <ul className="list-unstyled">
+                  Connect with us :
                   <li>
-                    <a className="wow fadeInUp" href="javascript:void(0);">
-                      <i aria-hidden="true" className="fab fa-facebook-f"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a className="wow fadeInDown" href="javascript:void(0);">
-                      <i aria-hidden="true" className="fab fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a className="wow fadeInUp" href="javascript:void(0);">
-                      <i
-                        aria-hidden="true"
-                        className="fab fa-google-plus-g"
-                      ></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a className="wow fadeInDown" href="javascript:void(0);">
+                    <a href="!#" className="wow fadeInDown">
                       <i aria-hidden="true" className="fab fa-linkedin-in"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a className="wow fadeInUp" href="javascript:void(0);">
-                      <i aria-hidden="true" className="fab fa-instagram"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a className="wow fadeInDown" href="javascript:void(0);">
-                      <i aria-hidden="true" className="fab fa-pinterest-p"></i>
                     </a>
                   </li>
                 </ul>
               </div>
+              <div className="footer-text text-center text-lg-left border-top border-info">
+                <ul>
+                  <li>Careers</li>
+                  <li>Member Services</li>
+                  <li>Press</li>
+                  <li>Privacy Policy</li>
+                </ul>
+              </div>
             </div>
             {/* <!--Text--> */}
-            <div className="col-lg-6 text-center text-lg-right">
+            <div className="col-lg-8 text-center text-lg-right">
               <p className="company-about fadeIn">
                 © {date} Brand Institute Inc.
               </p>

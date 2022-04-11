@@ -120,7 +120,7 @@ export default function SponsersSection() {
               </div>
             </div>
           </div>
-          <div className="divider"></div>
+          <div className="divider mt-5"></div>
         </div>
       </div>
     </>

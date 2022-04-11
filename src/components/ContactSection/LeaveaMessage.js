@@ -3,7 +3,7 @@ import React from "react";
 export default function LeaveaMessage() {
   return (
     <>
-      <div className="col-12 col-lg-6">
+      <div className="col-12 col-lg-6 ">
         <h4 className="heading text-center text-lg-left">LEAVE US A MESSAGE</h4>
         <form
           className="row contact-form wow fadeInLeft"
@@ -35,25 +35,25 @@ export default function LeaveaMessage() {
               placeholder="Phone"
               className="form-control"
             />
-            <select className="select" name="State">
-              <option value="" disabled selected hidden>
+            <select defaultValue={"DEFAULT"} className="select" name="State">
+              <option value="DEFAULT" disabled hidden>
                 State
               </option>
             </select>
-            <select className="select" name="Country">
-              <option value="" disabled selected hidden>
+            <select defaultValue={"DEFAULT"} className="select" name="Country">
+              <option value="DEFAULT" disabled hidden>
                 Country
               </option>
             </select>
           </div>
           <div className="col-12 col-md-7">
-            <select className="select" name="Services">
-              <option value="" disabled selected hidden>
+            <select defaultValue={"DEFAULT"} className="select" name="Services">
+              <option value="DEFAULT" disabled hidden>
                 Services and inquires *
               </option>
             </select>
-            <select className="select" name="How">
-              <option value="default" disabled selected hidden>
+            <select defaultValue={"DEFAULT"} className="select" name="How">
+              <option value="DEFAULT" disabled hidden>
                 How did you hear about us ? *
               </option>
             </select>
@@ -66,7 +66,7 @@ export default function LeaveaMessage() {
           </div>
           <div className="col-12">
             <a
-              href="javascript:void(0);"
+              href="!#"
               className="btn purple-btn rounded-pill w-100 contact_btn"
             >
               <i

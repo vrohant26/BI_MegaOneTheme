@@ -9,39 +9,67 @@ export default function Services() {
           <div className="row">
             <div className="col-12 col-lg-6 services-area padding-top padding-bottom">
               <div className="purple-overlay"></div>
-              <div className="row no-gutters wow fadeInLeft">
-                <div className="col-12 col-lg-6 services text-center">
-                  <div className="service-card">
-                    <div className="icon-holder">
-                      <i className="lni lni-briefcase"></i>
+              <div className="experience">
+                {/* <h4 className="text-center card-heading mb-5">
+                  Select Therapeutic Category Experience
+                </h4> */}
+                <div className="row1">
+                  <div className="experience-card mb-5">
+                    <div className="service-card">
+                      <div className="icon-holder">
+                        <img
+                          src="./assets/creative-startup/img/healthcare.png"
+                          alt="..."
+                          width={100}
+                        />
+                      </div>
+
+                      <h4 className="card-heading">Healthcare</h4>
                     </div>
-                    <h4 className="card-heading">Make Business</h4>
+                    <div className="service-card">
+                      <div className="icon-holder">
+                        <img
+                          src="./assets/creative-startup/img/mask.png"
+                          alt="..."
+                          width={100}
+                        />
+                      </div>
+                      <h4 className="card-heading">Covid-19</h4>
+                    </div>
                   </div>
                 </div>
-                <div className="col-12 col-lg-6 services text-center">
-                  <div className="service-card">
-                    <div className="icon-holder">
-                      <i className="lni lni-bulb"></i>
+                <div className="row2 ">
+                  <div className="experience-card mb-5">
+                    <div className="service-card">
+                      <div className="icon-holder">
+                        <img
+                          src="./assets/creative-startup/img/people.png"
+                          alt="..."
+                          width={100}
+                        />
+                      </div>
+
+                      <h4 className="card-heading">Consumer</h4>
                     </div>
-                    <h4 className="card-heading">Agency Ideas</h4>
+                    <div className="service-card">
+                      <div className="icon-holder">
+                        <img
+                          src="./assets/creative-startup/img/office-building.png"
+                          alt="..."
+                          width={100}
+                        />
+                      </div>
+
+                      <h4 className="card-heading">Corporate ID</h4>
+                    </div>
                   </div>
                 </div>
-                <div className="col-12 col-lg-6 services text-center">
-                  <div className="service-card">
-                    <div className="icon-holder">
-                      <i className="lni lni-heart"></i>
-                    </div>
-                    <h4 className="card-heading">Our Hardwork</h4>
-                  </div>
-                </div>
-                <div className="col-12 col-lg-6 services text-center">
-                  <div className="service-card">
-                    <div className="icon-holder">
-                      <i className="las la-wallet"></i>
-                    </div>
-                    <h4 className="card-heading">Make Money</h4>
-                  </div>
-                </div>
+                {/* <a href="!#" className="btn mt-5 anim-btn rounded-pill">
+                  VIEW MORE <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </a> */}
               </div>
             </div>
             <div className="col-12 col-lg-6 about-area padding-top padding-bottom text-center text-lg-left">
