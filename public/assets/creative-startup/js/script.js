@@ -68,21 +68,21 @@ jQuery(function ($) {
     return false;
   });
 
-  // $(document).on("click", ".home", function () {
-  //   $("html, body").animate({ scrollTop: 0 }, 800);
-  //   return false;
-  // });
+  $(document).on("click", ".home", function () {
+    $("html, body").animate({ scrollTop: 0 }, 800);
+    return false;
+  });
 
   /* ===================================
            Navbar smooth Scroll
        ====================================== */
 
-  if ($(".portfolio-sec").length) {
-    var port_target = $(".portfolio-sec").offset().top;
-  }
-  if ($(".about-sec").length) {
-    var about_target = $("#about-sec").offset().top;
-  }
+  // if ($(".portfolio-sec").length) {
+  //   var port_target = $(".portfolio-sec").offset().top;
+  // }
+  // if ($(".about-sec").length) {
+  //   var about_target = $("#about-sec").offset().top;
+  // }
 
   // jQuery(document).ready(function ($) {
   //   var hash = window.location.hash;
