@@ -35,6 +35,7 @@ export default function Navbar() {
                 </div>
                 <div className="col-6 text-right">
                   <ul className="top-social-links">
+                    <li>Connect With Us : </li>
                     <li>
                       <a href="!#" className="link-holder link-in">
                         <i className="lab la-linkedin-in"></i>

@@ -15,7 +15,7 @@ export default function About() {
       <button onClick={Move} className="btn right-arrow">
         <i className={move ? "fa fa-angle-right" : "fa fa-angle-left"}></i>
       </button>
-      <div className="bg-light overflow-hidden" id="About-sec">
+      <div className="bg-light overflow-clip" id="About-sec">
         <div className={move ? "go-right " : "go-left"}>
           <div className="bi-dsi ">
             <div className="bi">
