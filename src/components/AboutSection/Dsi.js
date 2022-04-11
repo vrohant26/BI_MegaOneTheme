@@ -10,7 +10,9 @@ export default function Dsi() {
           <div className="container main">
             <div className="row my-5">
               <div className="text-light col-12 col-lg-12 text-lg-left wow fadeInLeft">
-                <h4 className="heading font-control">Drug Safety Institute</h4>
+                <h4 className="heading font-control">
+                  Drug Safety Institute (DSI)
+                </h4>
                 <p style={{ fontSize: "18px" }}>
                   Drug Safety Institute (DSI), a wholly owned regulatory
                   subsidiary of Brand Institute, was founded in 2004 with the

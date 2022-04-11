@@ -14,6 +14,7 @@ import SliderSection from "./components/MainSection/SliderSection";
 import About from "./components/AboutSection/About";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 function App() {
   return (
     <>

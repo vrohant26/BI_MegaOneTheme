@@ -10,6 +10,13 @@ import Services from "../Services";
 // import TestimonialSection from "../TestimonialSection";
 // import PressRoom from "../PressRoom";
 
+export function AddLibrary(urlOfTheLibrary) {
+  const script = document.createElement("script");
+  script.src = urlOfTheLibrary;
+  script.async = true;
+  document.body.appendChild(script);
+}
+
 export default function SliderSection() {
   const [healthcare, setHealthcare] = React.useState(true);
   // const [covid, setCovid] = React.useState(false);
@@ -408,6 +415,8 @@ export default function SliderSection() {
       <Services />
       {/* <PressRoom /> */}
       {/* <TestimonialSection /> */}
+
+      {AddLibrary("./assets/creative-startup/js/script.js")}
     </>
   );
 }
