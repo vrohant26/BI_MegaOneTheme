@@ -19,7 +19,7 @@ function App() {
     <>
       <Preloader />
       <BrowserRouter>
-        <Navbar Switch={move} />
+        <Navbar setMove={setMove} Switch={move} />
         <Routes>
           <Route path="/" element={<SliderSection />} />
           <Route

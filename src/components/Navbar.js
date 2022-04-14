@@ -1,19 +1,16 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 
-export default function Navbar({ Switch }) {
+export default function Navbar({ Switch, setMove }) {
   const date = new Date().getFullYear();
-  const [toggle, settoggle] = useState("");
   const location = useLocation();
 
   useEffect(() => {
-    settoggle(Switch);
-
     if (location.pathname !== "/About") {
-      settoggle(true);
+      setMove(true);
     }
-  }, [Switch, location.pathname]);
+  }, [setMove, location.pathname]);
 
   return (
     <>
@@ -23,13 +20,13 @@ export default function Navbar({ Switch }) {
           {/* <!--colored-lines--> */}
           <div className="color-lines row no-gutters">
             <div
-              className={`col-4 ${toggle ? "bg-blue" : "bg-lightblue"}`}
+              className={`col-4 ${Switch ? "bg-blue" : "bg-lightblue"}`}
             ></div>
             <div
-              className={`col-4 ${toggle ? "bg-blue" : "bg-lightblue"}`}
+              className={`col-4 ${Switch ? "bg-blue" : "bg-lightblue"}`}
             ></div>
             <div
-              className={`col-4 ${toggle ? "bg-blue" : "bg-lightblue"}`}
+              className={`col-4 ${Switch ? "bg-blue" : "bg-lightblue"}`}
             ></div>
           </div>
           {/* <!--upper-nav--> */}
@@ -71,13 +68,13 @@ export default function Navbar({ Switch }) {
                 <div className="col-4 col-lg-3">
                   <Link
                     className={`navbar-brand simple-nav-logo  ${
-                      toggle ? "border-Bi" : "border-Dsi "
+                      Switch ? "border-Bi" : "border-Dsi "
                     }`}
                     to="/"
                   >
                     <img
                       src={
-                        toggle
+                        Switch
                           ? "./assets/creative-startup/img/BiLogo.png"
                           : "./assets/creative-startup/img/dsiLogo_resized(2).png"
                       }
@@ -87,7 +84,7 @@ export default function Navbar({ Switch }) {
                   <Link className="navbar-brand fixed-nav-logo" to="/">
                     <img
                       src={`${
-                        toggle
+                        Switch
                           ? "./assets/creative-startup/img/BiLogo.png"
                           : "./assets/creative-startup/img/dsiLogo.png"
                       }`}
