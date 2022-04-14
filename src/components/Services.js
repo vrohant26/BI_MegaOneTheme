@@ -10,57 +10,77 @@ export default function Services() {
             <div className="col-12 col-lg-6 services-area padding-top padding-bottom">
               <div className="purple-overlay"></div>
               <div className="experience">
-                {/* <h4 className="text-center card-heading mb-5">
-                  Select Therapeutic Category Experience
-                </h4> */}
                 <div className="row1">
                   <div className="experience-card mb-5">
                     <div className="service-card">
                       <div className="icon-holder">
                         <img
-                          src="./assets/creative-startup/img/healthcare.png"
+                          src="./assets/creative-startup/img/lightbulb.png"
                           alt="..."
-                          width={100}
+                          width={80}
                         />
                       </div>
 
-                      <h4 className="card-heading">Healthcare</h4>
+                      <h4 className="card-heading1 ">Brand Stategy</h4>
                     </div>
                     <div className="service-card">
                       <div className="icon-holder">
                         <img
-                          src="./assets/creative-startup/img/mask.png"
+                          src="./assets/creative-startup/img/growth.png"
                           alt="..."
-                          width={100}
+                          width={80}
                         />
                       </div>
-                      <h4 className="card-heading">Covid-19</h4>
+                      <h4 className="card-heading1">
+                        Creative <br /> Nomenclature <br /> Development
+                      </h4>
+                    </div>
+                    <div className="service-card">
+                      <div className="icon-holder">
+                        <img
+                          src="./assets/creative-startup/img/research.png"
+                          alt="..."
+                          width={80}
+                        />
+                      </div>
+                      <h4 className="card-heading1">Market Research</h4>
                     </div>
                   </div>
                 </div>
-                <div className="row2 ">
+                <div className="row2">
                   <div className="experience-card mb-5">
                     <div className="service-card">
                       <div className="icon-holder">
                         <img
-                          src="./assets/creative-startup/img/people.png"
+                          src="./assets/creative-startup/img/engineering.png"
                           alt="..."
-                          width={100}
+                          width={80}
                         />
                       </div>
 
-                      <h4 className="card-heading">Consumer</h4>
+                      <h4 className="card-heading1">Regulatory</h4>
                     </div>
                     <div className="service-card">
                       <div className="icon-holder">
                         <img
-                          src="./assets/creative-startup/img/office-building.png"
+                          src="./assets/creative-startup/img/trademark.png"
                           alt="..."
-                          width={100}
+                          width={80}
                         />
                       </div>
 
-                      <h4 className="card-heading">Corporate ID</h4>
+                      <h4 className="card-heading1">Trademarks</h4>
+                    </div>
+                    <div className="service-card">
+                      <div className="icon-holder">
+                        <img
+                          src="./assets/creative-startup/img/face-detection.png"
+                          alt="..."
+                          width={80}
+                        />
+                      </div>
+
+                      <h4 className="card-heading1">Visual Identity</h4>
                     </div>
                   </div>
                 </div>

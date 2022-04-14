@@ -228,6 +228,7 @@ ul {
 /* background color */
 .bg-blue {
   background-color: #1e3d7d;
+  transition: all 0.5s ease-in-out;
 }
 .bg-black {
   background-color: #000000;
@@ -238,6 +239,7 @@ ul {
 
 .bg-lightblue {
   background-color: #0d98dd;
+  transition: all 0.5s ease-in-out;
 }
 
 .text-lightblue {
@@ -636,14 +638,22 @@ header .simple-nav-logo {
   text-align: center;
   position: relative;
   z-index: 111;
+}
+
+.border-Bi {
   border: 2px solid #325caf;
 }
+.border-Dsi {
+  border: 2px solid #0d98dd;
+}
+
 header .fixed-nav-logo {
   display: none;
 }
 header .navbar-brand img {
   max-width: 80%;
 }
+
 header .main-navigation {
   padding-top: 30px;
 }
@@ -1278,6 +1288,14 @@ header
 .experience .card-heading {
   color: #ffffff;
   font-size: 28px;
+  font-family: Oswald, sans-serif;
+  font-weight: 300;
+  transition: 0.5s ease;
+}
+.experience .card-heading1 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
   font-family: Oswald, sans-serif;
   font-weight: 300;
   transition: 0.5s ease;
@@ -2820,7 +2838,6 @@ header
 
 .listItem:hover {
   cursor: pointer;
-  /* color: rgb(231, 231, 231); */
   border-bottom: 2px solid rgba(226, 226, 226, 0.603);
 }
 
@@ -2833,7 +2850,6 @@ header
   display: flex;
   flex-direction: column;
   height: auto;
-  /* height: 100%; */
   background-color: white;
   border: 3px solid #003082;
 }
@@ -2873,7 +2889,6 @@ header
   flex-direction: column;
   align-items: center;
   gap: 50px;
-  /* border-bottom: 1px solid rgb(219, 219, 219); */
 }
 
 .approvals .heading,
@@ -2921,19 +2936,15 @@ header
 }
 
 .divider {
-  /* margin-top: 50px; */
   border-bottom: 2px solid rgb(231, 231, 231);
 }
 
 .experience {
   display: flex;
-  /* flex-wrap: wrap; */
-
   flex-direction: column;
   z-index: 998;
   justify-content: center;
   align-items: center;
-  /* gap: 20px; */
 }
 
 .cities {
@@ -2967,9 +2978,12 @@ header
 
 .footer-text ul {
   /* width: 200px; */
+  display: flex;
+  /* gap: 20px; */
+  justify-content: space-around;
   list-style: none;
   font-weight: 500;
-  color: rgb(114, 114, 114);
+  color: rgb(130, 130, 130);
 }
 
 .footer-text ul li {
@@ -2998,7 +3012,8 @@ header
 
 .experience-card {
   display: flex;
-  width: 300px;
+  gap: 50px;
+  /* width: 300px; */
   justify-content: space-between;
 }
 
@@ -3055,24 +3070,35 @@ header
   transition: 0.9s ease-in-out;
 }
 
-.right-arrow {
+.right-arrow,
+.left-arrow {
+  width: 100%;
   color: white !important;
   background-color: #1e3d7d91;
-
   cursor: pointer;
-  font-size: 35px;
-  font-weight: 900;
-  position: fixed;
-  padding-bottom: 7px;
+  font-size: 30px;
   border: none;
   height: 45px;
   width: 45px;
   border-radius: 50%;
-  right: 20px;
-  top: 55%;
 }
 
-.right-arrow:hover {
+.right-arrow-position {
+  position: fixed;
+  right: 1.5vw;
+  top: 55%;
+  /* transition: right 0.9s ease-in-out; */
+}
+
+.left-arrow-position {
+  position: fixed;
+  right: 96vw;
+  top: 55%;
+  /* transition: all 1s ease-in-out; */
+}
+
+.right-arrow:hover,
+.left-arrow:hover {
   background-color: #1e3d7d;
 }
 
@@ -3082,7 +3108,7 @@ header
 }
 
 .dsi {
-  width: 100%;
+  width: 105vw;
   /* background-color: rgb(0, 255, 242); */
 }
 
@@ -3091,25 +3117,30 @@ header
 }
 
 .bi {
-  width: 90%;
-  /* background-color: red;  */
+  width: 92vw;
 }
 
 .go-right {
-  /* margin-top: -40px; */
   margin-right: -100%;
+  -webkit-transition: all 0.9s ease-in-out;
+  -o-transition: all 0.9s ease-in-out;
   transition: 0.9s all ease-in-out;
 }
 
 .go-left {
-  /* margin-top: -40px; */
   margin-left: -100%;
+  -webkit-transition: all 0.9s ease-in-out;
+  -o-transition: all 0.9s ease-in-out;
   transition: 0.9s all ease-in-out;
 }
 
 .bi-dsi {
   display: flex;
   gap: 30px;
+}
+
+.font-control p {
+  font-size: 18px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -3124,6 +3155,10 @@ header
     transform: translate(-50%, 0);
   }
 
+  .left-arrow-position {
+    right: 92vw;
+  }
+
   .slick-slider {
     margin-bottom: 30px;
   }
@@ -3136,9 +3171,17 @@ header
     font-size: 14px;
   }
 
-  /* .font-control {
-    font-weight: 300;
-    line-height: 40px;
+  .left-arrow-position {
+    right: 88vw;
+  }
+
+  .footer-text ul {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  /* .left-arrow-position {
+    right: 88vw;
   } */
 
   .bi-dsi {
@@ -3169,5 +3212,11 @@ header
   .james img {
     width: 300px;
     margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .font-control p {
+    font-size: 14px;
   }
 }

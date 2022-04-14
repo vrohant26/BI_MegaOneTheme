@@ -1,8 +1,20 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
-export default function Navbar() {
+export default function Navbar({ Switch }) {
   const date = new Date().getFullYear();
+  const [toggle, settoggle] = useState("");
+  const location = useLocation();
+
+  useEffect(() => {
+    settoggle(Switch);
+
+    if (location.pathname !== "/About") {
+      settoggle(true);
+    }
+  }, [Switch, location.pathname]);
+
   return (
     <>
       {/* <!--Header Start--> */}
@@ -10,9 +22,15 @@ export default function Navbar() {
         <div className="inner-header">
           {/* <!--colored-lines--> */}
           <div className="color-lines row no-gutters">
-            <div className="col-4 bg-blue"></div>
-            <div className="col-4 bg-blue"></div>
-            <div className="col-4 bg-blue"></div>
+            <div
+              className={`col-4 ${toggle ? "bg-blue" : "bg-lightblue"}`}
+            ></div>
+            <div
+              className={`col-4 ${toggle ? "bg-blue" : "bg-lightblue"}`}
+            ></div>
+            <div
+              className={`col-4 ${toggle ? "bg-blue" : "bg-lightblue"}`}
+            ></div>
           </div>
           {/* <!--upper-nav--> */}
           <div className="upper-nav">
@@ -37,8 +55,8 @@ export default function Navbar() {
                   <ul className="top-social-links">
                     <li>Connect With Us : </li>
                     <li>
-                      <a href="!#" className="link-holder link-in">
-                        <i className="lab la-linkedin-in"></i>
+                      <a href="!#" className="link-holder  link-in">
+                        <i className="lab  la-linkedin-in"></i>
                       </a>
                     </li>
                   </ul>
@@ -51,19 +69,31 @@ export default function Navbar() {
             <div className="container">
               <div className="row">
                 <div className="col-4 col-lg-3">
-                  <a className="navbar-brand simple-nav-logo" href="/">
+                  <Link
+                    className={`navbar-brand simple-nav-logo  ${
+                      toggle ? "border-Bi" : "border-Dsi "
+                    }`}
+                    to="/"
+                  >
                     <img
-                      src="./assets/creative-startup/img/BiLogo.png"
+                      src={
+                        toggle
+                          ? "./assets/creative-startup/img/BiLogo.png"
+                          : "./assets/creative-startup/img/dsiLogo_resized(2).png"
+                      }
                       alt="logo"
-                      width={180}
                     />
-                  </a>
-                  <a className="navbar-brand fixed-nav-logo" href="/">
+                  </Link>
+                  <Link className="navbar-brand fixed-nav-logo" to="/">
                     <img
-                      src="./assets/creative-startup/img/logo.png"
+                      src={`${
+                        toggle
+                          ? "./assets/creative-startup/img/BiLogo.png"
+                          : "./assets/creative-startup/img/dsiLogo.png"
+                      }`}
                       alt="logo"
                     />
-                  </a>
+                  </Link>
                 </div>
                 <div className="col-8 col-lg-9 simple-navbar">
                   <nav className="navbar navbar-expand-lg">
@@ -108,28 +138,6 @@ export default function Navbar() {
                       </ul>
                     </div>
                   </nav>
-                  {/* <ul className="top-social-links fixed-nav-links">
-                    <li>
-                      <a href="!#" className="link-holder fb">
-                        <i className="lab la-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="!#" className="link-holder twit">
-                        <i className="lab la-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="!#" className="link-holder link-in">
-                        <i className="lab la-linkedin-in"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="!#" className="link-holder insta">
-                        <i className="lab la-instagram"></i>
-                      </a>
-                    </li>
-                  </ul> */}
                 </div>
               </div>
             </div>

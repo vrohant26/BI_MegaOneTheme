@@ -1,40 +1,46 @@
-import React from "react";
+import React, { useState, useRef } from "react";
 import Consumer from "./Consumer";
 import Coopid from "./Coopid";
 import Healthcare from "./Healthcare";
 
+// const scrollToRef = (reference) =>
+// reference.current.scrollIntoView({ behavior: "smooth", block: "start" });
+
 export default function Select() {
-  const [healthcare, setHealthcare] = React.useState(true);
+  const myRef = useRef(null);
+  const executeScroll = () =>
+    myRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
+
+  const [healthcare, setHealthcare] = useState(true);
   // const [covid, setCovid] = React.useState(false);
-  const [consumer, setConsumer] = React.useState(false);
-  const [coopid, setCoopid] = React.useState(false);
+  const [consumer, setConsumer] = useState(false);
+  const [coopid, setCoopid] = useState(false);
 
   const ShowHealthcare = () => {
     setHealthcare(true);
     setConsumer(false);
     // setCovid(false);
     setCoopid(false);
+    executeScroll();
   };
-  // const ShowCovid = () => {
-  // setCovid(true);
-  //   setCoopid(false);
-  //   setConsumer(false);
-  //   setHealthcare(false);
-  // };
+
   const ShowConsumer = () => {
     setConsumer(true);
     setHealthcare(false);
     // setCovid(false);
     setCoopid(false);
+    executeScroll();
   };
   const ShowCoopid = () => {
     setCoopid(true);
     setConsumer(false);
     setHealthcare(false);
+    executeScroll();
     // setCovid(false);
   };
+
   return (
-    <section className="about-sec" id="about-sec">
+    <section className="about-sec mt-5" id="about-sec">
       <div className="about-overlay "></div>
       <div className="container">
         <div className="row">
@@ -105,7 +111,10 @@ export default function Select() {
             </div>
           </div>
 
-          <div className="col-12 col-lg-7 about-area padding-top padding-bottom text-center text-lg-left">
+          <div
+            ref={myRef}
+            className="col-12 col-lg-7 about-area padding-top padding-bottom text-center text-lg-left"
+          >
             <div className="about-content wow fadeInRight">
               <div className="about-inner-content">
                 <div className="mb-5"></div>

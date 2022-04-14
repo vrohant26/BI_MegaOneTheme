@@ -3,17 +3,17 @@ import React from "react";
 export default function Bi() {
   return (
     <>
-      <section className="slider-area bi-section" id="slider-area">
+      <section className=" bi-section" id="slider-area">
         {/* <div className="bg-overlay"></div> */}
         <div className="container-fluid position-relative bg-blue">
           {/* <div className="inner-bg-overlay "></div> */}
           <div className="container main">
             <div className="row my-5">
-              <div className="text-light col-12 col-lg-9  text-lg-left wow fadeInLeft">
-                <h4 className="heading  font-control">
+              <div className="text-light font-control col-12 col-lg-9  text-lg-left wow fadeInLeft">
+                <h4 className="heading  ">
                   Where Great Brands <br /> Begin!
                 </h4>
-                <p style={{ fontSize: "18px" }}>
+                <p>
                   Founded in 1993, Brand Institute (BI) was created on this
                   principle: provide the highest quality name development
                   services, produced and presented by the most experienced
@@ -29,11 +29,11 @@ export default function Bi() {
       </section>
 
       <div className="container padding-null py-5">
-        <div className="row my-5 ">
+        <div className="row my-5 font-control ">
           <div className="text-light col-12 col-lg-6 wow fadeInLeft">
-            <div className="h-100 bg-yellow  justify-content-center p-5">
-              <h4 className="heading font-control">Mission</h4>
-              <p style={{ fontSize: "18px" }}>
+            <div className="h-100  bg-yellow  justify-content-center p-5">
+              <h4 className="heading ">Mission</h4>
+              <p>
                 To provide best-in-class strategy, name development, trademark
                 screening, market/safety research and visual identity services
                 to our valued, global clientele, delivered by 300+ of the most
@@ -44,8 +44,8 @@ export default function Bi() {
           </div>
           <div className="text-yellow col-12 col-lg-6 wow fadeInRight">
             <div className="h-100 bg-white justify-content-center p-5">
-              <h4 className="heading font-control text-yellow">Vision</h4>
-              <p style={{ fontSize: "18px" }}>
+              <h4 className="heading  text-yellow">Vision</h4>
+              <p>
                 To maintain and grow our leadership role in nomenclature and
                 brand identity development by always listening and responding
                 promptly to our client’s needs, fostering cross-functional
@@ -59,9 +59,9 @@ export default function Bi() {
         </div>
         <div className="container">
           <div className="row text-white">
-            <div className="col-12 col-lg-12 h-100  p-5 bg-blue">
-              <h4 className="heading font-control ">Brand Promise</h4>
-              <p style={{ fontSize: "18px" }}>
+            <div className="col-12 font-control col-lg-12 h-100  p-5 bg-blue">
+              <h4 className="heading  ">Brand Promise</h4>
+              <p>
                 To exceed our client’s expectations every day by providing the
                 highest quality deliverables supported by outstanding service
                 and unparalleled expertise, at an exceptional value; and to

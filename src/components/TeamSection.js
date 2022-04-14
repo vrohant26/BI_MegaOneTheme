@@ -1,45 +1,6 @@
 import React from "react";
-// import $ from "jquery";
-// import owl from "../owl.carousel.min.js";
 
 export default function TeamSection() {
-  // useEffect(() => {
-  //   $(".team-carousel").owlCarousel({
-  //     loop: true,
-  //     smartSpeed: 500,
-  //     responsiveClass: true,
-  //     nav: false,
-  //     dots: false,
-  //     autoplay: true,
-  //     margin: 30,
-  //     autoplayHoverPause: true,
-  //     autoplayTimeout: 3000,
-  //     responsive: {
-  //       0: {
-  //         items: 1,
-  //         margin: 30,
-  //       },
-  //       480: {
-  //         items: 1,
-  //       },
-  //       992: {
-  //         items: 2,
-  //       },
-  //     },
-  //   });
-
-  //   $("#team-next").click(function () {
-  //     var owl = $(".team-carousel");
-  //     owl.owlCarousel();
-  //     owl.trigger("next.owl.carousel");
-  //   });
-  //   $("#team-prev").click(function () {
-  //     var owl = $(".team-carousel");
-  //     owl.owlCarousel();
-  //     owl.trigger("prev.owl.carousel", [300]);
-  //   });
-  // }, []);
-
   return (
     <>
       <section className="team-sec mb-5 position-relative" id="team-sec">
@@ -78,35 +39,11 @@ export default function TeamSection() {
                           {/* <!--Team Social--> */}
                           <ul className="team-social">
                             <li>
-                              <a className="facebook-text-hvr" href="!#">
-                                <i
-                                  className="lab la-facebook-f"
-                                  aria-hidden="true"
-                                ></i>
-                              </a>
-                            </li>
-                            <li>
-                              <a className="twitter-text-hvr" href="!#">
-                                <i
-                                  className="lab la-twitter"
-                                  aria-hidden="true"
-                                ></i>
-                              </a>
-                            </li>
-                            <li>
-                              <a className="instagram-text-hvr" href="!#">
-                                <i
-                                  className="lab la-instagram"
-                                  aria-hidden="true"
-                                ></i>
-                              </a>
-                            </li>
-                            <li>
-                              <a className="pinterest-text-hvr" href="!#">
-                                <i
-                                  className="lab la-pinterest-p"
-                                  aria-hidden="true"
-                                ></i>
+                              <a
+                                className="facebook-text-hvr d-flex justify-content-center align-items-center"
+                                href="!#"
+                              >
+                                <i className="lab la-linkedin-in "></i>
                               </a>
                             </li>
                           </ul>
@@ -129,35 +66,11 @@ export default function TeamSection() {
                           {/* <!--Team Social--> */}
                           <ul className="team-social">
                             <li>
-                              <a className="facebook-text-hvr" href="!#">
-                                <i
-                                  className="lab la-facebook-f"
-                                  aria-hidden="true"
-                                ></i>
-                              </a>
-                            </li>
-                            <li>
-                              <a className="twitter-text-hvr" href="!#">
-                                <i
-                                  className="lab la-twitter"
-                                  aria-hidden="true"
-                                ></i>
-                              </a>
-                            </li>
-                            <li>
-                              <a className="instagram-text-hvr" href="!#">
-                                <i
-                                  className="lab la-instagram"
-                                  aria-hidden="true"
-                                ></i>
-                              </a>
-                            </li>
-                            <li>
-                              <a className="pinterest-text-hvr" href="!#">
-                                <i
-                                  className="lab la-pinterest-p"
-                                  aria-hidden="true"
-                                ></i>
+                              <a
+                                className="facebook-text-hvr d-flex justify-content-center align-items-center"
+                                href="!#"
+                              >
+                                <i className="lab la-linkedin-in "></i>
                               </a>
                             </li>
                           </ul>

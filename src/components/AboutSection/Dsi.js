@@ -5,15 +5,13 @@ export default function Dsi() {
 
   return (
     <>
-      <section className="slider-area" id="slider-area">
+      <section className="" id="slider-area">
         <div className="container-fluid position-relative bg-lightblue">
-          <div className="container main">
+          <div className="container dsi-padding-left main">
             <div className="row my-5">
-              <div className="text-light col-12 col-lg-12 text-lg-left wow fadeInLeft">
-                <h4 className="heading font-control">
-                  Drug Safety Institute (DSI)
-                </h4>
-                <p style={{ fontSize: "18px" }}>
+              <div className="text-light font-control  col-12 col-lg-12 text-lg-left wow fadeInLeft">
+                <h4 className="heading ">Drug Safety Institute (DSI)</h4>
+                <p>
                   Drug Safety Institute (DSI), a wholly owned regulatory
                   subsidiary of Brand Institute, was founded in 2004 with the
                   goal of improving the safe use of pharmaceuticals by providing
@@ -53,16 +51,7 @@ export default function Dsi() {
       </section>
 
       <div className="container mt-5">
-        <div className="bg-white row  h-100 p-5">
-          <div className="col-12 col-lg-7 text-lightblue d-flex flex-column text-center justify-content-center align-items-center">
-            <div className="icon-holder">
-              <i className="fas fa-quote-right"></i>
-            </div>
-            <h5>
-              Drug Safety Institute is dedicated to improving the safe use of
-              pharmaceuticals by building safety into all of our drug names.
-            </h5>
-          </div>
+        <div className="bg-white row p-5">
           <div className="col-12 col-lg-5 d-flex flex-column justify-content-center align-items-center mt-5">
             <div className="card wow bounceInUp" style={{ width: "18rem" }}>
               <img
@@ -79,14 +68,23 @@ export default function Dsi() {
               </div>
             </div>
           </div>
+          <div className="col-12 col-lg-7 text-lightblue d-flex flex-column text-center justify-content-center align-items-center">
+            <div className="icon-holder">
+              <i className="fas fa-quote-right"></i>
+            </div>
+            <h5>
+              Drug Safety Institute is dedicated to improving the safe use of
+              pharmaceuticals by building safety into all of our drug names.
+            </h5>
+          </div>
         </div>
       </div>
 
       <div className="container  mt-5">
         <div className="text-light row  wow fadeInLeft">
-          <div className="h-100 bg-lightblue   justify-content-center p-5">
-            <h4 className="heading font-control">Mission</h4>
-            <p style={{ fontSize: "18px" }}>
+          <div className="h-100 font-control bg-lightblue   justify-content-center p-5">
+            <h4 className="heading ">Mission</h4>
+            <p>
               Mission To provide the global pharmaceutical and biotech
               communities with regulatory expertise, strategy, and best
               practices in brand name and nonproprietary (USAN/INN) name
@@ -96,7 +94,7 @@ export default function Dsi() {
           </div>
         </div>
       </div>
-      <div className="container">
+      <div className="container mt-5">
         <div className="divisional-leadership-team ">
           <h4 className="text-center py-5">Leadership Team</h4>
           <div className="team-profile">

@@ -6,7 +6,7 @@ export default function PressRoom() {
   return (
     <>
       <section
-        className="portfolio-sec slider-area company-portfolio-section padding-top"
+        className="portfolio-sec slider-area  company-portfolio-section padding-top "
         id="company-portfolio-section"
       >
         <div className="container">
@@ -53,6 +53,7 @@ export default function PressRoom() {
           </div>
         </div>
       </section>
+
       <section className="blog-sec" id="blog-sec">
         <div className="left-overlay"></div>
         <div className="container position-relative">
