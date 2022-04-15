@@ -228,7 +228,10 @@ ul {
 /* background color */
 .bg-blue {
   background-color: #1e3d7d;
-  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 .bg-black {
   background-color: #000000;
@@ -239,7 +242,10 @@ ul {
 
 .bg-lightblue {
   background-color: #0d98dd;
-  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .text-lightblue {
@@ -652,6 +658,10 @@ header .fixed-nav-logo {
 }
 header .navbar-brand img {
   max-width: 80%;
+  -webkit-transition: opacity 0.9s ease-in-out;
+  -moz-transition: opacity 0.9s ease-in-out;
+  -o-transition: opacity 0.9s ease-in-out;
+  transition: opacity 0.9s ease-in-out;
 }
 
 header .main-navigation {
@@ -3213,6 +3223,21 @@ header
     width: 300px;
     margin-bottom: 20px;
   }
+}
+
+.top-image {
+  /* position: absolute;
+  left: 2vw; */
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.opacity-0 {
+  opacity: 0;
 }
 
 @media screen and (max-width: 426px) {

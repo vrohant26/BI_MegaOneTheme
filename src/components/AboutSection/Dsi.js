@@ -53,7 +53,7 @@ export default function Dsi() {
       <div className="container mt-5">
         <div className="bg-white row p-5">
           <div className="col-12 col-lg-5 d-flex flex-column justify-content-center align-items-center mt-5">
-            <div className="card wow bounceInUp" style={{ width: "18rem" }}>
+            <div className="card" style={{ width: "18rem" }}>
               <img
                 src="https://www.brandinstitute.com/wp-content/uploads/2019/12/todd-1.png"
                 className="card-img-top"

@@ -72,13 +72,23 @@ export default function Navbar({ Switch, setMove }) {
                     }`}
                     to="/"
                   >
-                    <img
+                    {/* <img
                       src={
                         Switch
                           ? "./assets/creative-startup/img/BiLogo.png"
                           : "./assets/creative-startup/img/dsiLogo_resized(2).png"
                       }
                       alt="logo"
+                    /> */}
+                    <img
+                      className={Switch ? "" : "opacity-0"}
+                      src="./assets/creative-startup/img/BiLogo.png"
+                      alt="..."
+                    />
+                    <img
+                      className={`top-image ${Switch ? "opacity-0" : ""}`}
+                      src="./assets/creative-startup/img/dsiLogo_resized(2).png"
+                      alt=""
                     />
                   </Link>
                   <Link className="navbar-brand fixed-nav-logo" to="/">

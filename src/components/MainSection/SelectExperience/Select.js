@@ -3,9 +3,6 @@ import Consumer from "./Consumer";
 import Coopid from "./Coopid";
 import Healthcare from "./Healthcare";
 
-// const scrollToRef = (reference) =>
-// reference.current.scrollIntoView({ behavior: "smooth", block: "start" });
-
 export default function Select() {
   const myRef = useRef(null);
   const executeScroll = () =>
