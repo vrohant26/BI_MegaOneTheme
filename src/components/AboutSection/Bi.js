@@ -28,9 +28,9 @@ export default function Bi() {
         </div>
       </section>
 
-      <div className="container padding-null py-5">
+      <div className="container  padding-null py-5">
         <div className="row my-5 font-control ">
-          <div className="text-light col-12 col-lg-6 wow fadeInLeft">
+          <div className="text-light  col-12 col-lg-6 wow fadeInLeft">
             <div className="h-100  bg-yellow  justify-content-center p-5">
               <h4 className="heading ">Mission</h4>
               <p>
@@ -43,7 +43,7 @@ export default function Bi() {
             </div>
           </div>
           <div className="text-yellow col-12 col-lg-6 wow fadeInRight">
-            <div className="h-100 bg-white justify-content-center p-5">
+            <div className="h-100  bg-white justify-content-center p-5">
               <h4 className="heading  text-yellow">Vision</h4>
               <p>
                 To maintain and grow our leadership role in nomenclature and
@@ -178,167 +178,219 @@ export default function Bi() {
                 />
 
                 <div className="card-body">
-                  <span className="card-text">Carlos Gomez</span>
+                  <span className="card-text">
+                    Carlos Gomez <br /> <h6>Senior Vice President, IS</h6>
+                  </span>
                 </div>
               </div>
               <div className="card wow bounceInUp" style={{ width: "18rem" }}>
                 <img
-                  src="	https://www.brandinstitute.com/wp-content/uploads/2019/11/web-dave-2.jpg"
+                  src="https://www.brandinstitute.com/wp-content/uploads/2019/12/AMAURIS-small.jpg"
                   className="card-img-top"
                   alt="..."
                 />
                 <div className="card-body">
-                  <span className="card-text">David Dettore</span>
+                  <span className="card-text">
+                    Amauris Diaz <br />
+                    <h6>Senior Vice President, Visual Identity</h6>
+                  </span>
                 </div>
               </div>
               <div className="card wow bounceInUp" style={{ width: "18rem" }}>
                 <img
-                  src="https://www.brandinstitute.com/wp-content/uploads/2019/11/web-courtney.jpg"
+                  src="https://www.brandinstitute.com/wp-content/uploads/2019/12/Roly-small.jpg"
                   className="card-img-top"
                   alt="..."
                 />
                 <div className="card-body">
-                  <span className="card-text">Courtney Kilroy</span>
+                  <span className="card-text">
+                    Rogelio Reyes, Esq. <br />
+                    <h6>General Counsel</h6>
+                  </span>
                 </div>
               </div>
               <div className="card wow bounceInUp" style={{ width: "18rem" }}>
                 <img
-                  src="https://www.brandinstitute.com/wp-content/uploads/2019/11/web-jerry-1.jpg"
+                  src="	https://www.brandinstitute.com/wp-content/uploads/2019/12/Mary1.jpg"
                   className="card-img-top"
                   alt="..."
                 />
                 <div className="card-body">
-                  <span className="card-text">Jerry Phillips</span>
+                  <span className="card-text">
+                    Mary Lewis <br />
+                    <h6>Senior Vice President, Professional Development</h6>
+                  </span>
                 </div>
               </div>
               <div className="card wow bounceInUp" style={{ width: "18rem" }}>
                 <img
-                  src="https://www.brandinstitute.com/wp-content/uploads/2019/11/web-brian-2.jpg"
+                  src="https://www.brandinstitute.com/wp-content/uploads/2019/12/John-Can-small.jpg"
                   className="card-img-top"
                   alt="..."
                 />
                 <div className="card-body">
-                  <span className="card-text">Brian Frasca</span>
+                  <span className="card-text">
+                    Can Celebican <br />
+                    <h6>Senior Vice President, Business Development</h6>
+                  </span>
                 </div>
               </div>
               <div className="card wow bounceInUp" style={{ width: "18rem" }}>
                 <img
-                  src="https://www.brandinstitute.com/wp-content/uploads/2019/11/web-brian-2.jpg"
+                  src="https://www.brandinstitute.com/wp-content/uploads/2019/12/scott-small.jpg"
                   className="card-img-top"
                   alt="..."
                 />
                 <div className="card-body">
-                  <span className="card-text">Brian Frasca</span>
+                  <span className="card-text">
+                    Scott Piergrossi <br />
+                    <h6>President, Creative</h6>
+                  </span>
                 </div>
               </div>
               <div className="card wow bounceInUp" style={{ width: "18rem" }}>
                 <img
-                  src="https://www.brandinstitute.com/wp-content/uploads/2019/11/web-brian-2.jpg"
+                  src="	https://www.brandinstitute.com/wp-content/uploads/2019/12/jguillen.jpg"
                   className="card-img-top"
                   alt="..."
                 />
                 <div className="card-body">
-                  <span className="card-text">Brian Frasca</span>
+                  <span className="card-text">
+                    Juan Guillen <br />
+                    <h6>Vice President, Visual Identity</h6>
+                  </span>
                 </div>
               </div>
               <div className="card wow bounceInUp" style={{ width: "18rem" }}>
                 <img
-                  src="https://www.brandinstitute.com/wp-content/uploads/2019/11/web-brian-2.jpg"
+                  src="https://www.brandinstitute.com/wp-content/uploads/2019/12/ssuga.jpg"
                   className="card-img-top"
                   alt="..."
                 />
                 <div className="card-body">
-                  <span className="card-text">Brian Frasca</span>
+                  <span className="card-text">
+                    Sanae Suga <br />
+                    <h6>Vice President, Creative Nomenclature, Asia</h6>
+                  </span>
                 </div>
               </div>
               <div className="card wow bounceInUp" style={{ width: "18rem" }}>
                 <img
-                  src="https://www.brandinstitute.com/wp-content/uploads/2019/11/web-brian-2.jpg"
+                  src="	https://www.brandinstitute.com/wp-content/uploads/2019/12/jchaimberlain.jpg"
                   className="card-img-top"
                   alt="..."
                 />
                 <div className="card-body">
-                  <span className="card-text">Brian Frasca</span>
+                  <span className="card-text">
+                    Jacqueline Chamberlain, Esq.
+                    <br />
+                    <h6>Vice President, Human Resources & Legal Affairs</h6>
+                  </span>
                 </div>
               </div>
               <div className="card wow bounceInUp" style={{ width: "18rem" }}>
                 <img
-                  src="https://www.brandinstitute.com/wp-content/uploads/2019/11/web-brian-2.jpg"
+                  src="https://www.brandinstitute.com/wp-content/uploads/2019/12/alexa.jpg"
                   className="card-img-top"
                   alt="..."
                 />
                 <div className="card-body">
-                  <span className="card-text">Brian Frasca</span>
+                  <span className="card-text">
+                    Alexa Lash <br />
+                    <h6>Senior Vice President, Creative Nomenclature</h6>
+                  </span>
                 </div>
               </div>
               <div className="card wow bounceInUp" style={{ width: "18rem" }}>
                 <img
-                  src="https://www.brandinstitute.com/wp-content/uploads/2019/11/web-brian-2.jpg"
+                  src="https://www.brandinstitute.com/wp-content/uploads/2019/12/cristina-small.jpg"
                   className="card-img-top"
                   alt="..."
                 />
                 <div className="card-body">
-                  <span className="card-text">Brian Frasca</span>
+                  <span className="card-text">
+                    Cristina Milesi, Pharm.D. <br />
+                    <h6>Vice President, Safety Research</h6>
+                  </span>
                 </div>
               </div>
               <div className="card wow bounceInUp" style={{ width: "18rem" }}>
                 <img
-                  src="https://www.brandinstitute.com/wp-content/uploads/2019/11/web-brian-2.jpg"
+                  src="https://www.brandinstitute.com/wp-content/uploads/2019/12/alejandro-small.jpg"
                   className="card-img-top"
                   alt="..."
                 />
                 <div className="card-body">
-                  <span className="card-text">Brian Frasca</span>
+                  <span className="card-text">
+                    Alejandro Bretana
+                    <br />
+                    <h6>Vice President, IT</h6>
+                  </span>
                 </div>
               </div>
               <div className="card wow bounceInUp" style={{ width: "18rem" }}>
                 <img
-                  src="https://www.brandinstitute.com/wp-content/uploads/2019/11/web-brian-2.jpg"
+                  src="https://www.brandinstitute.com/wp-content/uploads/2019/12/Kathy-small.jpg"
                   className="card-img-top"
                   alt="..."
                 />
                 <div className="card-body">
-                  <span className="card-text">Brian Frasca</span>
+                  <span className="card-text">
+                    Katherine Millan, MST <br />
+                    <h6>Vice President, Finance</h6>
+                  </span>
                 </div>
               </div>
               <div className="card wow bounceInUp" style={{ width: "18rem" }}>
                 <img
-                  src="https://www.brandinstitute.com/wp-content/uploads/2019/11/web-brian-2.jpg"
+                  src="https://www.brandinstitute.com/wp-content/uploads/2019/12/minnie.jpg"
                   className="card-img-top"
                   alt="..."
                 />
                 <div className="card-body">
-                  <span className="card-text">Brian Frasca</span>
+                  <span className="card-text">
+                    Minnie Suh <br />
+                    <h6>Director, Brand Strategy & Market Research</h6>
+                  </span>
                 </div>
               </div>
               <div className="card wow bounceInUp" style={{ width: "18rem" }}>
                 <img
-                  src="https://www.brandinstitute.com/wp-content/uploads/2019/11/web-brian-2.jpg"
+                  src="https://www.brandinstitute.com/wp-content/uploads/2019/12/arotar.jpg"
                   className="card-img-top"
                   alt="..."
                 />
                 <div className="card-body">
-                  <span className="card-text">Brian Frasca</span>
+                  <span className="card-text">
+                    Anamaria Rotar, CPA <br />
+                    <h6>Vice President, Tax</h6>
+                  </span>
                 </div>
               </div>
               <div className="card wow bounceInUp" style={{ width: "18rem" }}>
                 <img
-                  src="https://www.brandinstitute.com/wp-content/uploads/2019/11/web-brian-2.jpg"
+                  src="	https://www.brandinstitute.com/wp-content/uploads/2019/12/joe.jpg"
                   className="card-img-top"
                   alt="..."
                 />
                 <div className="card-body">
-                  <span className="card-text">Brian Frasca</span>
+                  <span className="card-text">
+                    Joe Bazerghi <br />
+                    <h6>Vice President, Commercial Research & Strategy</h6>
+                  </span>
                 </div>
               </div>
               <div className="card wow bounceInUp" style={{ width: "18rem" }}>
                 <img
-                  src="https://www.brandinstitute.com/wp-content/uploads/2019/11/web-brian-2.jpg"
+                  src="https://www.brandinstitute.com/wp-content/uploads/2019/12/sanderson.jpg"
                   className="card-img-top"
                   alt="..."
                 />
                 <div className="card-body">
-                  <span className="card-text">Brian Frasca</span>
+                  <span className="card-text">
+                    Steve Anderson <br />
+                    <h6>Vice President, Trademarks & Brand Development</h6>
+                  </span>
                 </div>
               </div>
             </div>

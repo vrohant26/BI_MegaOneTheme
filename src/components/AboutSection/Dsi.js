@@ -156,57 +156,62 @@ export default function Dsi() {
             </div>
             <div className="card wow bounceInUp" style={{ width: "18rem" }}>
               <img
-                src="https://www.brandinstitute.com/wp-content/uploads/2019/11/web-brian-2.jpg"
+                src="	https://www.brandinstitute.com/wp-content/uploads/2019/11/web-NORA-500x500.jpg"
                 className="card-img-top"
                 alt="..."
               />
               <div className="card-body">
                 <span className="card-text">
-                  Brian Frasca
+                  Nora Roselle
                   <br />
-                  <h6>Divisional President, Midwestern U.S.</h6>
+                  <h6>President, U.S. Regulatory Affairs</h6>
                 </span>
               </div>
             </div>
             <div className="card wow bounceInUp" style={{ width: "18rem" }}>
               <img
-                src="https://www.brandinstitute.com/wp-content/uploads/2019/11/web-brian-2.jpg"
+                src="https://www.brandinstitute.com/wp-content/uploads/2019/11/web-sandra-500x500.jpg"
                 className="card-img-top"
                 alt="..."
               />
               <div className="card-body">
                 <span className="card-text">
-                  Brian Frasca
+                  Sandra Van Laan
                   <br />
-                  <h6>Divisional President, Midwestern U.S.</h6>
+                  <h6>
+                    Senior Vice President, Regulatory Affairs, Nonproprietary
+                    Names Division
+                  </h6>
                 </span>
               </div>
             </div>
             <div className="card wow bounceInUp" style={{ width: "18rem" }}>
               <img
-                src="https://www.brandinstitute.com/wp-content/uploads/2019/11/web-brian-2.jpg"
+                src="	https://www.brandinstitute.com/wp-content/uploads/2019/11/web-jose-ferrero.jpg"
                 className="card-img-top"
                 alt="..."
               />
               <div className="card-body">
                 <span className="card-text">
-                  Brian Frasca
+                  José-Ángel Ferrero
                   <br />
-                  <h6>Divisional President, Midwestern U.S.</h6>
+                  <h6>
+                    Vice President, EU Regulatory Affairs & Safety Research
+                  </h6>
                 </span>
               </div>
             </div>
             <div className="card wow bounceInUp" style={{ width: "18rem" }}>
               <img
-                src="https://www.brandinstitute.com/wp-content/uploads/2019/11/web-brian-2.jpg"
+                src="	https://www.brandinstitute.com/wp-content/uploads/2019/11/baptiste.jpg"
                 className="card-img-top"
                 alt="..."
               />
               <div className="card-body">
                 <span className="card-text">
-                  Brian Frasca
+                  Baptiste Lacoustille
                   <br />
-                  <h6>Divisional President, Midwestern U.S.</h6>
+                  <h6>Pharm.D., M.S. - Drug Safety Evaluator</h6>
                 </span>
               </div>
             </div>

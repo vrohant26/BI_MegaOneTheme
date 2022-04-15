@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useCallback } from "react";
 import StatsSection from "../StatsSection";
 import TeamSection from "../TeamSection";
 import Services from "../Services";
@@ -6,18 +6,20 @@ import TestimonialSection from "../TestimonialSection";
 import Select from "./SelectExperience/Select";
 
 export default function SliderSection() {
-  const AddLibrary = (urlOfTheLibrary) => {
+  const AddLibrary = useCallback((urlOfTheLibrary) => {
     const script = document.createElement("script");
     script.src = urlOfTheLibrary;
     script.async = true;
     document.body.appendChild(script);
-  };
+  }, []);
   useEffect(() => {
+    // console.log("Library added");
     AddLibrary("./assets/creative-startup/js/script.js");
     return () => {
       AddLibrary("");
+      // console.log("Library removed");
     };
-  });
+  }, [AddLibrary]);
 
   return (
     <>

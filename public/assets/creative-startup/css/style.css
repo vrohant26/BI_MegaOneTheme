@@ -228,10 +228,10 @@ ul {
 /* background color */
 .bg-blue {
   background-color: #1e3d7d;
-  -webkit-transition: all 1s ease-in-out;
-  -moz-transition: all 1s ease-in-out;
-  -o-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .bg-black {
   background-color: #000000;
@@ -242,10 +242,10 @@ ul {
 
 .bg-lightblue {
   background-color: #0d98dd;
-  -webkit-transition: all 1s ease-in-out;
-  -moz-transition: all 1s ease-in-out;
-  -o-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .text-lightblue {
@@ -441,11 +441,11 @@ ul {
 }
 
 .purple-btn {
-  border: solid 1px #0d98dd;
+  border: solid 1px;
   color: #ffffff;
   font-weight: 400;
   padding: 8px 35px;
-  background-color: #0d98dd;
+  /* background-color: #0d98dd; */
   font-size: 14px;
   font-family: Roboto, sans-serif;
 
@@ -658,10 +658,10 @@ header .fixed-nav-logo {
 }
 header .navbar-brand img {
   /* max-width: 90%; */
-  -webkit-transition: opacity 0.9s ease-in-out;
-  -moz-transition: opacity 0.9s ease-in-out;
-  -o-transition: opacity 0.9s ease-in-out;
-  transition: opacity 0.9s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -o-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
 }
 
 header .main-navigation {
@@ -3132,16 +3132,16 @@ header
 
 .go-right {
   margin-right: -100%;
-  -webkit-transition: all 0.9s ease-in-out;
-  -o-transition: all 0.9s ease-in-out;
-  transition: 0.9s all ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: 0.5s all ease-in-out;
 }
 
 .go-left {
   margin-left: -100%;
-  -webkit-transition: all 0.9s ease-in-out;
-  -o-transition: all 0.9s ease-in-out;
-  transition: 0.9s all ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: 0.5s all ease-in-out;
 }
 
 .bi-dsi {
@@ -3154,11 +3154,8 @@ header
 }
 
 .top-image {
-  /* position: absolute;
-  left: 2vw; */
   position: absolute;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   left: 0;
   right: 0;
   text-align: center;
@@ -3210,10 +3207,6 @@ header
     gap: 0;
   }
 
-  /* .left-arrow-position {
-    right: 88vw;
-  } */
-
   .bi-dsi {
     gap: 15px;
   }
@@ -3224,11 +3217,6 @@ header
 
   .bi-component {
     transform: translate(-90%);
-  }
-
-  .center-component {
-    transform: translate(-10%);
-    transition: 0.9s ease-in-out;
   }
 
   .countries {

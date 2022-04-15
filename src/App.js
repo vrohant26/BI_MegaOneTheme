@@ -22,10 +22,7 @@ function App() {
         <Navbar setMove={setMove} Switch={move} />
         <Routes>
           <Route path="/" element={<SliderSection />} />
-          <Route
-            path="About"
-            element={<About move={move} toggle={toggle} setMove={setMove} />}
-          />
+          <Route path="About" element={<About move={move} toggle={toggle} />} />
           <Route path="PressRoom" element={<PressRoom />} />
           <Route path="Contact" element={<ContactSection />} />
         </Routes>

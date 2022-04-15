@@ -72,14 +72,6 @@ export default function Navbar({ Switch, setMove }) {
                     }`}
                     to="/"
                   >
-                    {/* <img
-                      src={
-                        Switch
-                          ? "./assets/creative-startup/img/BiLogo.png"
-                          : "./assets/creative-startup/img/dsiLogo_resized(2).png"
-                      }
-                      alt="logo"
-                    /> */}
                     <img
                       className={`bottom-image ${Switch ? "" : "opacity-0"}`}
                       src="./assets/creative-startup/img/BiLogo.png"
