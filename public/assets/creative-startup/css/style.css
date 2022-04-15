@@ -657,7 +657,7 @@ header .fixed-nav-logo {
   display: none;
 }
 header .navbar-brand img {
-  max-width: 90%;
+  /* max-width: 90%; */
   -webkit-transition: opacity 0.9s ease-in-out;
   -moz-transition: opacity 0.9s ease-in-out;
   -o-transition: opacity 0.9s ease-in-out;
@@ -3153,6 +3153,26 @@ header
   font-size: 18px;
 }
 
+.top-image {
+  /* position: absolute;
+  left: 2vw; */
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 90%;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.bottom-image {
+  width: 80%;
+}
+
 @media screen and (max-width: 1200px) {
   .cities {
     width: 800px;
@@ -3223,21 +3243,6 @@ header
     width: 300px;
     margin-bottom: 20px;
   }
-}
-
-.top-image {
-  /* position: absolute;
-  left: 2vw; */
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-  text-align: center;
-}
-
-.opacity-0 {
-  opacity: 0;
 }
 
 @media screen and (max-width: 426px) {

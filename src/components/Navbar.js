@@ -81,7 +81,7 @@ export default function Navbar({ Switch, setMove }) {
                       alt="logo"
                     /> */}
                     <img
-                      className={Switch ? "" : "opacity-0"}
+                      className={`bottom-image ${Switch ? "" : "opacity-0"}`}
                       src="./assets/creative-startup/img/BiLogo.png"
                       alt="..."
                     />
