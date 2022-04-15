@@ -657,7 +657,7 @@ header .fixed-nav-logo {
   display: none;
 }
 header .navbar-brand img {
-  max-width: 80%;
+  max-width: 90%;
   -webkit-transition: opacity 0.9s ease-in-out;
   -moz-transition: opacity 0.9s ease-in-out;
   -o-transition: opacity 0.9s ease-in-out;

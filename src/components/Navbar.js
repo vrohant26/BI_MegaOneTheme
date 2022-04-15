@@ -87,7 +87,7 @@ export default function Navbar({ Switch, setMove }) {
                     />
                     <img
                       className={`top-image ${Switch ? "opacity-0" : ""}`}
-                      src="./assets/creative-startup/img/dsiLogo_resized(2).png"
+                      src="./assets/creative-startup/img/dsiLogo.png"
                       alt=""
                     />
                   </Link>
