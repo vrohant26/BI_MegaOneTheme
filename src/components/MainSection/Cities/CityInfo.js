@@ -82,7 +82,7 @@ export default function CityInfo() {
             <div className="slider-img col-12 col-lg-7  wow fadeInRight">
               <div className="img-slide">
                 {loading ? (
-                  <div className="d-flex justify-content-center align-items-center h-100">
+                  <div className="d-flex bg-gray justify-content-center align-items-center h-100">
                     <div className="loader"></div>
                   </div>
                 ) : (

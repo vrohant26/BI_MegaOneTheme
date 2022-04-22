@@ -252,6 +252,10 @@ ul {
   color: #0d98dd;
 }
 
+.bg-gray {
+  background-color: #acacac !important;
+}
+
 .bg-light {
   background-color: #e2f0ff !important;
 }
@@ -3205,11 +3209,11 @@ header
 }
 
 .loader {
-  border: 12px solid white;
+  border: 8px solid white;
   border-radius: 50%;
-  border-top: 12px solid #ff8100;
-  width: 120px;
-  height: 120px;
+  border-top: 8px solid #ff8100;
+  width: 60px;
+  height: 60px;
   -webkit-animation: spin 2s linear infinite; /* Safari */
   animation: spin 2s linear infinite;
   z-index: 1000;
