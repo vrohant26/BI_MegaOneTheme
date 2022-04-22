@@ -1,18 +1,61 @@
-import React from "react";
+import React, { useState, useRef } from "react";
+import ServicesInfo from "./ServicesInfo";
+import { services } from "../../../Data";
 
 export default function Services() {
+  const myRef = useRef(null);
+  const executeScroll = () => {
+    myRef.current.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const [sendData, setsendData] = useState(services[0]);
+
+  const brandstrategy = () => {
+    setsendData(services[0]);
+    executeScroll();
+  };
+
+  const cnd = () => {
+    setsendData(services[1]);
+    executeScroll();
+  };
+
+  const marketresearch = () => {
+    setsendData(services[2]);
+    executeScroll();
+  };
+
+  const regulatory = () => {
+    setsendData(services[3]);
+    executeScroll();
+  };
+
+  const trademark = () => {
+    setsendData(services[4]);
+    executeScroll();
+  };
+
+  const visualidentity = () => {
+    setsendData(services[5]);
+    executeScroll();
+  };
+
   return (
     <>
-      <section className="about-sec " id="about-sec">
+      <section className="about-sec ">
         <div className="about-overlay "></div>
         <div className="container">
           <div className="row">
             <div className="col-12 col-lg-6 services-area padding-top padding-bottom">
               <div className="purple-overlay"></div>
+
               <div className="experience">
+                <h4 className="text-center card-heading mb-5">
+                  Select Services
+                </h4>
                 <div className="row1">
                   <div className="experience-card mb-5">
-                    <div className="service-card">
+                    <div onClick={brandstrategy} className="service-card">
                       <div className="icon-holder">
                         <img
                           src="./assets/creative-startup/img/lightbulb.png"
@@ -23,7 +66,7 @@ export default function Services() {
 
                       <h4 className="card-heading1 ">Brand Stategy</h4>
                     </div>
-                    <div className="service-card">
+                    <div onClick={cnd} className="service-card">
                       <div className="icon-holder">
                         <img
                           src="./assets/creative-startup/img/growth.png"
@@ -35,7 +78,7 @@ export default function Services() {
                         Creative <br /> Nomenclature <br /> Development
                       </h4>
                     </div>
-                    <div className="service-card">
+                    <div onClick={marketresearch} className="service-card">
                       <div className="icon-holder">
                         <img
                           src="./assets/creative-startup/img/research.png"
@@ -49,7 +92,7 @@ export default function Services() {
                 </div>
                 <div className="row2">
                   <div className="experience-card mb-5">
-                    <div className="service-card">
+                    <div onClick={regulatory} className="service-card">
                       <div className="icon-holder">
                         <img
                           src="./assets/creative-startup/img/engineering.png"
@@ -60,7 +103,7 @@ export default function Services() {
 
                       <h4 className="card-heading1">Regulatory</h4>
                     </div>
-                    <div className="service-card">
+                    <div onClick={trademark} className="service-card">
                       <div className="icon-holder">
                         <img
                           src="./assets/creative-startup/img/trademark.png"
@@ -71,7 +114,7 @@ export default function Services() {
 
                       <h4 className="card-heading1">Trademarks</h4>
                     </div>
-                    <div className="service-card">
+                    <div onClick={visualidentity} className="service-card">
                       <div className="icon-holder">
                         <img
                           src="./assets/creative-startup/img/face-detection.png"
@@ -84,35 +127,14 @@ export default function Services() {
                     </div>
                   </div>
                 </div>
-                {/* <a href="!#" className="btn mt-5 anim-btn rounded-pill">
-                  VIEW MORE <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </a> */}
               </div>
             </div>
-            <div className="col-12 col-lg-6 about-area padding-top padding-bottom text-center text-lg-left">
-              <div className="about-content wow fadeInRight">
-                <div className="about-inner-content">
-                  <h4 className="heading">Branding Services</h4>
-                  <p className="text">
-                    Brand Institute provides a robust portfolio of brand
-                    strategy/architecture, naming, research, regulatory and
-                    design services. Wherever your product is in its lifecycle,
-                    Brand Institute offers tailored, cutting-edge identity
-                    solutions ensuring creativity, trademark risk awareness,
-                    regulatory insight and resonant design execution.
-                  </p>
 
-                  <a href="#about-sec" className="btn anim-btn rounded-pill">
-                    LEARN MORE <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                  </a>
-                </div>
-              </div>
+            <div
+              ref={myRef}
+              className="col-12  padding-top padding-botttom  col-lg-6 about-area  text-center text-lg-left"
+            >
+              <ServicesInfo data={sendData} />
             </div>
           </div>
         </div>

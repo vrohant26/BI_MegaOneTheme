@@ -4,7 +4,7 @@ export default function Footer() {
   const date = new Date().getFullYear();
   return (
     <>
-      <div className="color-lines mt-5  row no-gutters">
+      <div className="color-lines  row no-gutters">
         <div className="col-4 bg-blue"></div>
         <div className="col-4 bg-blue"></div>
         <div className="col-4 bg-blue"></div>

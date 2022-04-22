@@ -1319,7 +1319,7 @@ header
   padding-left: 50px;
 }
 .about-sec .about-area .about-inner-content .anim-btn {
-  margin-top: 30px;
+  margin: 30px 0px;
 }
 /* ===================================
         stats section css
@@ -2962,17 +2962,28 @@ header
   bottom: 50px;
   padding: 0px 10px;
   width: 1000px;
-  left: 46%;
-  transform: translate(-50%, 0);
-  color: white;
+  /* left: 46%;
+  transform: translate(-50%, 0); */
+  left: 0;
+  right: 10vw;
+  margin: 0 auto;
 }
 
-.cities a {
+.city-text {
   color: #e48210;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 400;
+  /* border-right: 1px solid white; */
+  /* padding: 0 5px; */
 }
 
-.cities a:hover {
+.vdivide {
+  width: 1px;
+  background-color: white;
+  height: 12px;
+}
+
+.city-text:hover {
   color: white;
 }
 
@@ -3006,7 +3017,7 @@ header
 }
 
 .item img {
-  border-radius: 20%;
+  border-radius: 10%;
   width: 150px;
   object-fit: contain;
 }
@@ -3168,6 +3179,70 @@ header
 
 .bottom-image {
   width: 80%;
+}
+
+.item-click:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.meet-team {
+  cursor: pointer;
+}
+
+.meet-team:hover {
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+
+.display-none {
+  display: none;
+}
+
+.display-block {
+  display: block;
+}
+
+.loader {
+  border: 12px solid white;
+  border-radius: 50%;
+  border-top: 12px solid #ff8100;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+  z-index: 1000;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.looking {
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+  color: rgb(67, 67, 67);
+}
+
+.looking:hover {
+  color: #1e3d7d;
 }
 
 @media screen and (max-width: 1200px) {

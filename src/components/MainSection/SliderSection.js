@@ -1,9 +1,11 @@
 import React, { useEffect, useCallback } from "react";
 import StatsSection from "../StatsSection";
 import TeamSection from "../TeamSection";
-import Services from "../Services";
-import TestimonialSection from "../TestimonialSection";
-import Select from "./SelectExperience/Select";
+import Services from "./SelectServices/Services";
+import Select from "./SelectExperience/Experience";
+
+import ContactSection from "../ContactSection/ContactSection";
+import CityList from "./Cities/CityList";
 
 export default function SliderSection() {
   const AddLibrary = useCallback((urlOfTheLibrary) => {
@@ -12,12 +14,11 @@ export default function SliderSection() {
     script.async = true;
     document.body.appendChild(script);
   }, []);
+
   useEffect(() => {
-    // console.log("Library added");
     AddLibrary("./assets/creative-startup/js/script.js");
     return () => {
       AddLibrary("");
-      // console.log("Library removed");
     };
   }, [AddLibrary]);
 
@@ -29,7 +30,7 @@ export default function SliderSection() {
           <div className="inner-bg-overlay "></div>
           <div className="row mb-5">
             <div
-              className="slider-detail col-12 col-lg-6 text-center  text-lg-left wow fadeInLeft"
+              className="slider-detail col-12 col-lg-6 text-center  text-lg-left "
               data-wow-delay=".8s"
             >
               <div className="slider-slide">
@@ -98,7 +99,7 @@ export default function SliderSection() {
               </div>
             </div>
             <div
-              className="slider-img col-12 col-lg-6 wow fadeInRight "
+              className="slider-img col-12 col-lg-6  "
               data-wow-delay=".8s"
               data-depth="0.1"
             >
@@ -122,20 +123,7 @@ export default function SliderSection() {
             </button>
           </div>
         </div>
-        <div className="cities text-center">
-          <a href="http://"> BASEL </a> | <a href="http://"> BOSTON </a> |
-          <a href="http://"> CHICAGO </a> | <a href="http://"> DALLAS </a> |
-          <a href="http://"> FRANKFURT </a> |<a href="http://"> LONDON </a> |
-          <a href="http://"> LOS ANGELES </a> | <a href="http://"> MIAMI</a> |
-          <a href="http://"> MONTREAL </a> | <a href="http://"> NEW YORK</a> |
-          <a href="http://"> MUMBAI </a> <br /> <a href="http://"> OTTAWA </a> |
-          <a href="http://"> RALEIGH-DURHAM </a> |
-          <a href="http://"> ROCKVILLE </a> |
-          <a href="http://"> SAN FRANCISCO </a> |
-          <a href="http://"> SAN JUAN </a>| <a href="http://">SÃO PAULO </a> |
-          <a href="http://"> SEOUL </a> |<a href="http://"> TOKYO </a> |
-          <a href="http://"> TORONTO </a>
-        </div>
+        <CityList />
       </section>
 
       <Select />
@@ -353,6 +341,7 @@ export default function SliderSection() {
           </div>
         </div>
       </section>
+
       <section className="blog-sec" id="blog-sec">
         <div className="left-overlay"></div>
         <div className="container position-relative">
@@ -448,7 +437,13 @@ export default function SliderSection() {
         </div>
       </section>
 
-      <TestimonialSection />
+      {/* <section className="contact-sec padding-bottom">
+        <div className="container">
+          <div className="row"> */}
+      <ContactSection />
+      {/* </div>
+        </div>
+      </section> */}
     </>
   );
 }

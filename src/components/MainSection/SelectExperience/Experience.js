@@ -1,43 +1,33 @@
 import React, { useState, useRef } from "react";
-import Consumer from "./Consumer";
-import Coopid from "./Coopid";
-import Healthcare from "./Healthcare";
+
+import ExperienceInfo from "./ExperienceInfo";
+import { experience } from "../../../Data";
 
 export default function Select() {
   const myRef = useRef(null);
   const executeScroll = () =>
     myRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
 
-  const [healthcare, setHealthcare] = useState(true);
-  // const [covid, setCovid] = React.useState(false);
-  const [consumer, setConsumer] = useState(false);
-  const [coopid, setCoopid] = useState(false);
+  const [sendData, setsendData] = useState(experience[0].healthcare);
 
   const ShowHealthcare = () => {
-    setHealthcare(true);
-    setConsumer(false);
-    // setCovid(false);
-    setCoopid(false);
+    setsendData(experience[0].healthcare);
+
     executeScroll();
   };
 
   const ShowConsumer = () => {
-    setConsumer(true);
-    setHealthcare(false);
-    // setCovid(false);
-    setCoopid(false);
+    setsendData(experience[1].consumer);
+
     executeScroll();
   };
   const ShowCoopid = () => {
-    setCoopid(true);
-    setConsumer(false);
-    setHealthcare(false);
+    setsendData(experience[2].corporate);
     executeScroll();
-    // setCovid(false);
   };
 
   return (
-    <section className="about-sec mt-5" id="about-sec">
+    <section className="about-sec mt-5">
       <div className="about-overlay "></div>
       <div className="container">
         <div className="row">
@@ -112,12 +102,10 @@ export default function Select() {
             ref={myRef}
             className="col-12 col-lg-7 about-area padding-top padding-bottom text-center text-lg-left"
           >
-            <div className="about-content wow fadeInRight">
+            <div className="about-content ">
               <div className="about-inner-content">
                 <div className="mb-5"></div>
-                {healthcare ? <Healthcare /> : null}
-                {consumer ? <Consumer /> : null}
-                {coopid ? <Coopid /> : null}
+                <ExperienceInfo companies={sendData} />
               </div>
             </div>
           </div>
