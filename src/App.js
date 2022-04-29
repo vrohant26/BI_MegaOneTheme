@@ -2,11 +2,11 @@ import ContactSection from "./components/ContactSection/ContactSection";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import PressRoom from "./components/PressRoom";
-// import Preloader from "./components/Preloader";
 import ScrollTop from "./components/ScrollTop";
 import SliderSection from "./components/MainSection/SliderSection";
 import About from "./components/AboutSection/About";
 import CityInfo from "./components/MainSection/Cities/CityInfo";
+import Experience from "./components/ExperienceSection/Experience";
 
 import { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -19,7 +19,6 @@ function App() {
 
   return (
     <>
-      {/* <Preloader /> */}
       <BrowserRouter>
         <Navbar setMove={setSwitch} Switch={Switch} />
         <Routes>
@@ -29,6 +28,7 @@ function App() {
             path="About"
             element={<About move={Switch} toggle={toggle} />}
           />
+          <Route path="Experience" element={<Experience />} />
           <Route path="PressRoom" element={<PressRoom />} />
           <Route path="Contact" element={<ContactSection />} />
         </Routes>

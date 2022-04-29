@@ -34,22 +34,6 @@ jQuery(function ($) {
     });
   }
 
-  // if ($(".slider-sec").length) {
-  //   var slider_height = $(".slider-sec").offset().top;
-  //   $(window).on("scroll", function () {
-  //     if ($(this).scrollTop() > 260) {
-  //       // Set position from top to add class
-  //       if ($(".slider-sec").css({ "margin-top": slider_height })) {
-  //         $(".inner-header").addClass("header-appear");
-  //       }
-  //     } else {
-  //       if ($(".slider-sec").css({ "margin-top": "-40px" })) {
-  //         $(".inner-header").removeClass("header-appear");
-  //       }
-  //     }
-  //   });
-  // }
-
   /* ===================================
          arrow appear and scroll to top
      ====================================== */
@@ -72,69 +56,6 @@ jQuery(function ($) {
     $("html, body").animate({ scrollTop: 0 }, 800);
     return false;
   });
-
-  /* ===================================
-           Navbar smooth Scroll
-       ====================================== */
-
-  // if ($(".portfolio-sec").length) {
-  //   var port_target = $(".portfolio-sec").offset().top;
-  // }
-  // if ($(".about-sec").length) {
-  //   var about_target = $("#about-sec").offset().top;
-  // }
-
-  // jQuery(document).ready(function ($) {
-  //   var hash = window.location.hash;
-
-  //   // if ( hash == '' || hash == '#' || hash == undefined ) return false;
-
-  //   var target = $(hash);
-
-  //   //  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-
-  //   if (hash === "#company-portfolio-section") {
-  //     var new_height = port_target - 806;
-  //     if (target.length) {
-  //       $("html,body").stop().animate(
-  //         {
-  //           scrollTop: new_height, //offsets for fixed header
-  //         },
-  //         "linear"
-  //       );
-  //     }
-  //   }
-  //   if (hash === "#about-sec") {
-  //     var new_heights = about_target - 951;
-  //     if (target.length) {
-  //       $("html,body").stop().animate(
-  //         {
-  //           scrollTop: new_heights, //offsets for fixed header
-  //         },
-  //         "linear"
-  //       );
-  //     }
-  //   }
-  // });
-
-  // if ($(".scroll").length) {
-  //   $(".scroll").on("click", function (event) {
-  //     if (this.hash !== "") {
-  //       event.preventDefault();
-
-  //       var hash = this.hash;
-  //       $("html, body").animate(
-  //         {
-  //           scrollTop: $(hash).offset().top - 0,
-  //         },
-  //         500,
-  //         function () {
-  //           window.location.hash = hash;
-  //         }
-  //       );
-  //     }
-  //   });
-  // }
 
   /* ===================================
         Side Menu
@@ -232,6 +153,12 @@ jQuery(function ($) {
       },
       992: {
         items: 2,
+      },
+      1000: {
+        items: 3,
+      },
+      1200: {
+        items: 3,
       },
     },
   });

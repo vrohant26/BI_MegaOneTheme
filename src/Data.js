@@ -39,6 +39,15 @@ export const services = [
 
 export const experience = [
   {
+    category: "Healthcare",
+    Headline: "The global leader in healthcare naming!",
+    SubTopic:
+      "Including nonproprietary (USAN/INN) names, drug brand names, medical device names, OTC product names, and COVID-19 vaccines, repurposed drugs, and diagnostics! We name over 75% of nonproprietary (USAN/INN) and drug brand name approvals worldwide!",
+    Stats: [
+      { Number: 1152, Topic: "Healthcare Clients" },
+      { Number: 3965, Topic: "Total Healthcare Names" },
+      { Number: 1290, Topic: "USAN/INN Names" },
+    ],
     healthcare: [
       {
         id: 1,
@@ -79,6 +88,15 @@ export const experience = [
     ],
   },
   {
+    category: "Consumer",
+    Headline:
+      "Brand Institute names more consumer and B2B companies, products and services that any other naming agency!",
+    SubTopic: "",
+    Stats: [
+      { Number: 1152, Topic: "Healthcare Clients" },
+      { Number: 3965, Topic: "Total Healthcare Names" },
+      { Number: 1290, Topic: "USAN/INN Names" },
+    ],
     consumer: [
       {
         id: 1,
@@ -119,6 +137,15 @@ export const experience = [
     ],
   },
   {
+    category: "nonproprietary",
+    Headline:
+      "The global leader in USAN/INN naming, partnering on 76% of USAN and 78% of INN drug name approvals!ealthcare naming!",
+    SubTopic: "",
+    Stats: [
+      { Number: 546, Topic: "Healthcare Clients" },
+      { Number: 3965, Topic: "Total Healthcare Names" },
+      { Number: 1290, Topic: "USAN/INN Names" },
+    ],
     corporate: [
       {
         id: 1,
@@ -155,6 +182,55 @@ export const experience = [
         img: "https://www.brandinstitute.com/wp-content/uploads/2019/11/stage6_-e1576001745316.jpg",
         category: "Entertainment",
         name: "Stage 6",
+      },
+    ],
+  },
+  {
+    category: "covid19",
+    Headline: "The global leader in healthcare naming!",
+    SubTopic:
+      "Including nonproprietary (USAN/INN) names, drug brand names, medical device names, OTC product names, and COVID-19 vaccines, repurposed drugs, and diagnostics! We name over 75% of nonproprietary (USAN/INN) and drug brand name approvals worldwide!",
+    Stats: [
+      { Number: 948, Topic: "Healthcare Clients" },
+      { Number: 3465, Topic: "Total Healthcare Names" },
+      { Number: 81, Topic: "Vaccine Names" },
+    ],
+    covid: [
+      {
+        id: 1,
+        img: "",
+        category: "",
+        name: "",
+      },
+      {
+        id: 2,
+        img: "",
+        category: "",
+        name: "",
+      },
+      {
+        id: 3,
+        img: "",
+        category: "",
+        name: "",
+      },
+      {
+        id: 4,
+        img: "",
+        category: "",
+        name: "",
+      },
+      {
+        id: 5,
+        img: "",
+        category: "",
+        name: "",
+      },
+      {
+        id: 6,
+        img: "6",
+        category: "",
+        name: "",
       },
     ],
   },
@@ -344,5 +420,50 @@ export const Cities = [
     phone: "+1 (416) 622-5777",
     email: "TorontoGroup@brandinstitute.com",
     team: "https://www.brandinstitute.com/bios/toronto.asp?dir=00001&email=WEBSITE",
+  },
+];
+
+export const Teams = [
+  {
+    id: 1,
+    img: "https://www.brandinstitute.com/wp-content/uploads/2019/11/jd-new.jpg",
+    name: "James L. Dettore",
+    designation: "Chairman & CEO",
+    Team: "ALL",
+  },
+  {
+    id: 2,
+    img: "https://www.brandinstitute.com/wp-content/uploads/2019/11/web-bill.jpg",
+    name: "William Johnson",
+    designation: "Co-Chief Executive Officer & President",
+    Team: "ALL",
+  },
+  {
+    id: 1,
+    img: "https://www.brandinstitute.com/wp-content/uploads/2019/11/jd-new.jpg",
+    name: "James L. Dettore",
+    designation: "Chairman & CEO",
+    Team: "ALL",
+  },
+  {
+    id: 1,
+    img: "https://www.brandinstitute.com/wp-content/uploads/2019/11/jd-new.jpg",
+    name: "James L. Dettore",
+    designation: "Chairman & CEO",
+    Team: "ALL",
+  },
+  {
+    id: 1,
+    img: "https://www.brandinstitute.com/wp-content/uploads/2019/11/jd-new.jpg",
+    name: "James L. Dettore",
+    designation: "Chairman & CEO",
+    Team: "ALL",
+  },
+  {
+    id: 1,
+    img: "https://www.brandinstitute.com/wp-content/uploads/2019/11/jd-new.jpg",
+    name: "James L. Dettore",
+    designation: "Chairman & CEO",
+    Team: "ALL",
   },
 ];

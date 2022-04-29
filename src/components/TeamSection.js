@@ -84,6 +84,122 @@ export default function TeamSection() {
                       </div>
                     </div>
                   </div>
+                  <div className="item text-center">
+                    <div className="team-box">
+                      <div className="img-holder position-relative">
+                        <img
+                          src="	https://www.brandinstitute.com/wp-content/uploads/2019/11/web-dave-2.jpg"
+                          alt="..."
+                        />
+                        <div className="overlay d-flex justify-content-center align-items-center">
+                          {/* <!--Team Social--> */}
+                          <ul className="team-social">
+                            <li>
+                              <a
+                                className="facebook-text-hvr d-flex justify-content-center align-items-center"
+                                href="!#"
+                              >
+                                <i className="lab la-linkedin-in "></i>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="team-info">
+                        <h4 className="team-name">David Dettore</h4>
+                        <p className="team-designation">
+                          President, U.S. Western Division & Asia
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="item text-center">
+                    <div className="team-box">
+                      <div className="img-holder position-relative">
+                        <img
+                          src="https://www.brandinstitute.com/wp-content/uploads/2019/11/web-courtney.jpg"
+                          alt="..."
+                        />
+                        <div className="overlay d-flex justify-content-center align-items-center">
+                          {/* <!--Team Social--> */}
+                          <ul className="team-social">
+                            <li>
+                              <a
+                                className="facebook-text-hvr d-flex justify-content-center align-items-center"
+                                href="!#"
+                              >
+                                <i className="lab la-linkedin-in "></i>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="team-info">
+                        <h4 className="team-name">Courtney Kilroy</h4>
+                        <p className="team-designation">
+                          Divisional President - Pacific Northwest
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="item text-center">
+                    <div className="team-box">
+                      <div className="img-holder position-relative">
+                        <img
+                          src="	https://www.brandinstitute.com/wp-content/uploads/2019/11/web-jerry-1.jpg"
+                          alt="..."
+                        />
+                        <div className="overlay d-flex justify-content-center align-items-center">
+                          {/* <!--Team Social--> */}
+                          <ul className="team-social">
+                            <li>
+                              <a
+                                className="facebook-text-hvr d-flex justify-content-center align-items-center"
+                                href="!#"
+                              >
+                                <i className="lab la-linkedin-in "></i>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="team-info">
+                        <h4 className="team-name">Jerry Phillips</h4>
+                        <p className="team-designation">
+                          President, Client Relations
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="item text-center">
+                    <div className="team-box">
+                      <div className="img-holder position-relative">
+                        <img
+                          src="https://www.brandinstitute.com/wp-content/uploads/2019/11/web-brian-2.jpg"
+                          alt="..."
+                        />
+                        <div className="overlay d-flex justify-content-center align-items-center">
+                          {/* <!--Team Social--> */}
+                          <ul className="team-social">
+                            <li>
+                              <a
+                                className="facebook-text-hvr d-flex justify-content-center align-items-center"
+                                href="!#"
+                              >
+                                <i className="lab la-linkedin-in "></i>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div className="team-info">
+                        <h4 className="team-name">Brian Frasca</h4>
+                        <p className="team-designation">
+                          Divisional President, Midwestern U.S.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
 
                 <button className="team-nav team-prev" id="team-prev">

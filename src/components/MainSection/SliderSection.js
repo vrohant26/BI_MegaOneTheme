@@ -2,7 +2,7 @@ import React, { useEffect, useCallback } from "react";
 import StatsSection from "../StatsSection";
 import TeamSection from "../TeamSection";
 import Services from "./SelectServices/Services";
-import Select from "./SelectExperience/Experience";
+import Select from "./SelectExperience/SelectExperience";
 
 import ContactSection from "../ContactSection/ContactSection";
 import CityList from "./Cities/CityList";

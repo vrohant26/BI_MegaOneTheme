@@ -39,12 +39,6 @@ export default function Dsi() {
                   this page.
                 </p>
               </div>
-              {/* <div className="col-12 col-lg-5 mt-5 ">
-                <img
-                  src="https://www.brandinstitute.com/wp-content/uploads/2019/11/DSI-LOGO.png"
-                  alt="dsi"
-                />
-              </div> */}
             </div>
           </div>
         </div>
@@ -94,7 +88,7 @@ export default function Dsi() {
           </div>
         </div>
       </div>
-      <div className="container mt-5">
+      <div className="container my-5">
         <div className="divisional-leadership-team ">
           <h4 className="text-center py-5">Leadership Team</h4>
           <div className="team-profile">

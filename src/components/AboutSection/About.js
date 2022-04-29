@@ -15,7 +15,7 @@ export default function About({ toggle, move }) {
             : "left-arrow left-arrow-position"
         } btn d-flex justify-content-center align-items-center`}
       >
-        <i className="fa fa-angle-right"></i>
+        <i className={move ? "fa fa-angle-right" : "fa fa-angle-left"}></i>
       </button>
 
       <div className="slider-area overflow-clip" id="About-sec">
@@ -23,7 +23,7 @@ export default function About({ toggle, move }) {
           <div className={move ? "go-right " : "go-left"}>
             <div className="bi-dsi ">
               <div className="bi">
-                <Bi />
+                <Bi move={move} />
               </div>
               <div className="dsi">
                 <Dsi />

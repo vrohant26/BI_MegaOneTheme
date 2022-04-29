@@ -233,6 +233,23 @@ ul {
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
+
+.thead-blue {
+  background-color: #1e3d7d;
+}
+
+.bg-consumer {
+  background-image: url("https://www.brandinstitute.com/wp-content/uploads/2014/07/nathan-anderson-291067-1648x700.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-healthcare {
+  background-repeat: no-repeat;
+  background-image: url("https://www.brandinstitute.com/wp-content/uploads/2017/09/levi-bare-290789.jpg");
+  background-size: cover;
+}
+
 .bg-black {
   background-color: #000000;
 }
@@ -2845,23 +2862,19 @@ header
 
 .listItem {
   list-style: none;
-  font-weight: 600;
+  font-weight: 400;
   color: white;
   padding: 10px 0;
 }
 
 .listItem:hover {
   cursor: pointer;
-  border-bottom: 2px solid rgba(226, 226, 226, 0.603);
-}
-
-.activeNews {
-  border-bottom: 2px solid rgb(231, 231, 231);
+  /* border-bottom: 1px solid rgba(226, 226, 226, 0.603); */
 }
 
 .articles {
   max-width: 100%;
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   height: auto;
   background-color: white;
@@ -3112,14 +3125,12 @@ header
   position: fixed;
   right: 1.5vw;
   top: 55%;
-  /* transition: right 0.9s ease-in-out; */
 }
 
 .left-arrow-position {
   position: fixed;
   right: 96vw;
   top: 55%;
-  /* transition: all 1s ease-in-out; */
 }
 
 .right-arrow:hover,
@@ -3134,7 +3145,6 @@ header
 
 .dsi {
   width: 105vw;
-  /* background-color: rgb(0, 255, 242); */
 }
 
 .overflow-clip {
@@ -3209,14 +3219,20 @@ header
 }
 
 .loader {
-  border: 8px solid white;
+  border: 6px solid #acacac;
   border-radius: 50%;
-  border-top: 8px solid #ff8100;
-  width: 60px;
-  height: 60px;
+  border-top: 6px solid white;
+  border-right: 6px solid white;
+  border-bottom: 6px solid white;
+  width: 50px;
+  height: 50px;
   -webkit-animation: spin 2s linear infinite; /* Safari */
   animation: spin 2s linear infinite;
   z-index: 1000;
+}
+
+.Consumer {
+  width: 100vw;
 }
 
 /* Safari */
@@ -3247,6 +3263,27 @@ header
 
 .looking:hover {
   color: #1e3d7d;
+  text-decoration: underline;
+}
+
+.experience-submenu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  color: #ff8100;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.experience-submenu li {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.experience-submenu li:hover {
+  cursor: pointer;
+  color: white;
 }
 
 @media screen and (max-width: 1200px) {
@@ -3267,6 +3304,10 @@ header
 
   .slick-slider {
     margin-bottom: 30px;
+  }
+
+  .heading {
+    margin-bottom: 10px;
   }
 }
 
@@ -3309,6 +3350,10 @@ header
   .james img {
     width: 300px;
     margin-bottom: 20px;
+  }
+
+  .experience-submenu {
+    flex-direction: column;
   }
 }
 

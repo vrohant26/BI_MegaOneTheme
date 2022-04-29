@@ -83,13 +83,8 @@ export default function PressRoom() {
                 </a>
               </div>
             </div>
-            {/* <div className="col-12 col-lg-6"> */}
             <div className="col-12 col-lg-9">
               <div className="blog-img wow fadeInRight">
-                {/* <img
-                  src="./assets/creative-startup/img/blog1.png"
-                  alt="blog-img"
-                /> */}
                 <div className="articles">
                   <div className="news-card">
                     <div className="date">Feb 22, 2022</div>

@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
+// import $ from "jquery";
 
 export default function Navbar({ Switch, setMove }) {
   const date = new Date().getFullYear();
@@ -117,12 +118,9 @@ export default function Navbar({ Switch, setMove }) {
                           </a>
                         </li>
                         <li className="nav-item">
-                          <a
-                            className="nav-link scroll"
-                            href="#testimonial-sec"
-                          >
+                          <Link className="nav-link scroll" to="Experience">
                             EXPERIENCE
-                          </a>
+                          </Link>
                         </li>
                         <li className="nav-item">
                           <Link className="nav-link scroll" to="PressRoom">

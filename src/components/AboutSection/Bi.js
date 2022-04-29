@@ -1,10 +1,9 @@
 import React from "react";
 
-export default function Bi() {
+export default function Bi({ move }) {
   return (
     <>
-      <section className=" bi-section" id="slider-area">
-        {/* <div className="bg-overlay"></div> */}
+      <section className="bi-section" id="slider-area">
         <div className="container-fluid position-relative bg-blue">
           {/* <div className="inner-bg-overlay "></div> */}
           <div className="container main">
@@ -94,7 +93,7 @@ export default function Bi() {
               </div>
             </div>
           </div>
-          <div className="divisional-leadership-team ">
+          <div className={`divisional-leadership-team ${move ? "" : "d-none"}`}>
             <h4 className="text-center py-5">Divisional Leadership Team</h4>
             <div className="team-profile">
               <div className="card wow bounceInUp" style={{ width: "18rem" }}>
@@ -167,7 +166,11 @@ export default function Bi() {
               </div>
             </div>
           </div>
-          <div className="divisional-leadership-team mt-5">
+          <div
+            className={`divisional-leadership-team mt-5 ${
+              move ? "" : "d-none"
+            }`}
+          >
             <h4 className="text-center py-5">Divisional Operational Team</h4>
             <div className="team-profile">
               <div className="card wow bounceInUp" style={{ width: "18rem" }}>

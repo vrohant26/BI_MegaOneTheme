@@ -1,9 +1,9 @@
 import React, { useState, useRef } from "react";
 
-import ExperienceInfo from "./ExperienceInfo";
+import ExperienceInfo from "./SelectExperienceInfo";
 import { experience } from "../../../Data";
 
-export default function Select() {
+export default function SelectExperience() {
   const myRef = useRef(null);
   const executeScroll = () =>
     myRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -12,13 +12,16 @@ export default function Select() {
 
   const ShowHealthcare = () => {
     setsendData(experience[0].healthcare);
-
     executeScroll();
   };
 
   const ShowConsumer = () => {
     setsendData(experience[1].consumer);
-
+    executeScroll();
+  };
+  const ShowCovid = () => {
+    setsendData(experience[3].covid);
+    // console.log(sendData);
     executeScroll();
   };
   const ShowCoopid = () => {
@@ -51,7 +54,7 @@ export default function Select() {
 
                     <h4 className="card-heading">Healthcare</h4>
                   </div>
-                  <div onClick={ShowHealthcare} className="service-card">
+                  <div onClick={ShowCovid} className="service-card">
                     <div className="icon-holder">
                       <img
                         src="./assets/creative-startup/img/mask.png"
