@@ -7,9 +7,11 @@ import SliderSection from "./components/MainSection/SliderSection";
 import About from "./components/AboutSection/About";
 import CityInfo from "./components/MainSection/Cities/CityInfo";
 import Experience from "./components/ExperienceSection/Experience";
+import SplashScreen from "./SplashScreen";
 
 import { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import HealthcarePage from "./HealthcarePage";
 
 function App() {
   const [Switch, setSwitch] = useState(true);
@@ -20,6 +22,25 @@ function App() {
   return (
     <>
       <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<SplashScreen />} />
+          <Route
+            path="Healthcare"
+            element={<HealthcarePage setMove={setSwitch} Switch={Switch} />}
+          >
+            <Route path="Home" element={<SliderSection />} />
+            <Route path="Home/:cityname" element={<CityInfo />} />
+
+            <Route
+              path="About"
+              element={<About toggle={toggle} move={Switch} />}
+            />
+            <Route path="Experience" element={<Experience />} />
+            <Route path="PressRoom" element={<PressRoom />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+      {/* <BrowserRouter>
         <Navbar setMove={setSwitch} Switch={Switch} />
         <Routes>
           <Route path="/" element={<SliderSection />} />
@@ -34,7 +55,7 @@ function App() {
         </Routes>
       </BrowserRouter>
       <Footer />
-      <ScrollTop />
+      <ScrollTop /> */}
     </>
   );
 }

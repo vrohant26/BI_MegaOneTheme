@@ -42,7 +42,7 @@ export default function Services() {
 
   return (
     <>
-      <section className="about-sec ">
+      <section className="about-sec " id="services-sec">
         <div className="about-overlay "></div>
         <div className="container">
           <div className="row">
@@ -58,7 +58,7 @@ export default function Services() {
                     <div onClick={brandstrategy} className="service-card">
                       <div className="icon-holder">
                         <img
-                          src="./assets/creative-startup/img/lightbulb.png"
+                          src="/assets/creative-startup/img/lightbulb.png"
                           alt="..."
                           width={80}
                         />
@@ -69,7 +69,7 @@ export default function Services() {
                     <div onClick={cnd} className="service-card">
                       <div className="icon-holder">
                         <img
-                          src="./assets/creative-startup/img/growth.png"
+                          src="/assets/creative-startup/img/growth.png"
                           alt="..."
                           width={80}
                         />
@@ -81,7 +81,7 @@ export default function Services() {
                     <div onClick={marketresearch} className="service-card">
                       <div className="icon-holder">
                         <img
-                          src="./assets/creative-startup/img/research.png"
+                          src="/assets/creative-startup/img/research.png"
                           alt="..."
                           width={80}
                         />
@@ -95,7 +95,7 @@ export default function Services() {
                     <div onClick={regulatory} className="service-card">
                       <div className="icon-holder">
                         <img
-                          src="./assets/creative-startup/img/engineering.png"
+                          src="/assets/creative-startup/img/engineering.png"
                           alt="..."
                           width={80}
                         />
@@ -106,7 +106,7 @@ export default function Services() {
                     <div onClick={trademark} className="service-card">
                       <div className="icon-holder">
                         <img
-                          src="./assets/creative-startup/img/trademark.png"
+                          src="/assets/creative-startup/img/trademark.png"
                           alt="..."
                           width={80}
                         />
@@ -117,7 +117,7 @@ export default function Services() {
                     <div onClick={visualidentity} className="service-card">
                       <div className="icon-holder">
                         <img
-                          src="./assets/creative-startup/img/face-detection.png"
+                          src="/assets/creative-startup/img/face-detection.png"
                           alt="..."
                           width={80}
                         />
@@ -132,7 +132,7 @@ export default function Services() {
 
             <div
               ref={myRef}
-              className="col-12  padding-top padding-botttom  col-lg-6 about-area  text-center text-lg-left"
+              className="col-12  col-lg-6 about-area  text-center text-lg-left"
             >
               <ServicesInfo data={sendData} />
             </div>

@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
-// import $ from "jquery";
 
 export default function Navbar({ Switch, setMove }) {
   const date = new Date().getFullYear();
@@ -75,12 +74,12 @@ export default function Navbar({ Switch, setMove }) {
                   >
                     <img
                       className={`bottom-image ${Switch ? "" : "opacity-0"}`}
-                      src="./assets/creative-startup/img/BiLogo.png"
+                      src="/assets/creative-startup/img/BiLogo.png"
                       alt="..."
                     />
                     <img
                       className={`top-image ${Switch ? "opacity-0" : ""}`}
-                      src="./assets/creative-startup/img/dsiLogo.png"
+                      src="/assets/creative-startup/img/dsiLogo.png"
                       alt=""
                     />
                   </Link>
@@ -88,8 +87,8 @@ export default function Navbar({ Switch, setMove }) {
                     <img
                       src={`${
                         Switch
-                          ? "./assets/creative-startup/img/BiLogo.png"
-                          : "./assets/creative-startup/img/dsiLogo.png"
+                          ? "/assets/creative-startup/img/BiLogo.png"
+                          : "/assets/creative-startup/img/dsiLogo.png"
                       }`}
                       alt="logo"
                     />
@@ -103,7 +102,7 @@ export default function Navbar({ Switch, setMove }) {
                     >
                       <ul className="navbar-nav ml-auto">
                         <li className="nav-item active">
-                          <Link to="/" className="nav-link home">
+                          <Link to="Home" className="nav-link home">
                             HOME
                           </Link>
                         </li>
@@ -113,7 +112,11 @@ export default function Navbar({ Switch, setMove }) {
                           </Link>
                         </li>
                         <li className="nav-item">
-                          <a className="nav-link scroll" href="#about-sec">
+                          <a
+                            // onClick={locate}
+                            className="nav-link scroll"
+                            href="Home/#services-sec"
+                          >
                             SERVICES
                           </a>
                         </li>
@@ -128,9 +131,12 @@ export default function Navbar({ Switch, setMove }) {
                           </Link>
                         </li>
                         <li className="nav-item">
-                          <Link className="nav-link scroll" to="Contact">
+                          <a
+                            href="Home/#contact-sec"
+                            className="nav-link scroll"
+                          >
                             CONTACT
-                          </Link>
+                          </a>
                         </li>
                       </ul>
                     </div>
@@ -159,7 +165,7 @@ export default function Navbar({ Switch, setMove }) {
                 <div className="col-12 d-flex justify-content-center align-items-center">
                   <a href="/" className="navbar-brand">
                     <img
-                      src="./assets/creative-startup/img/white-logo.png"
+                      src="/assets/creative-startup/img/white-logo.png"
                       alt="logo"
                       width={150}
                     />
@@ -169,7 +175,7 @@ export default function Navbar({ Switch, setMove }) {
                   <nav className="side-nav w-100">
                     <ul className="navbar-nav">
                       <li className="nav-item">
-                        <Link to="/" className="nav-link scroll">
+                        <Link to="Home" className="nav-link scroll">
                           HOME
                         </Link>
                       </li>
@@ -179,14 +185,17 @@ export default function Navbar({ Switch, setMove }) {
                         </Link>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link  scroll" href="#about-sec">
+                        <a
+                          className="nav-link  scroll"
+                          href="Home/#services-sec"
+                        >
                           SERVICES
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link scroll" href="#testimonial-sec">
+                        <Link className="nav-link scroll" to="Experience">
                           EXPERIENCE
-                        </a>
+                        </Link>
                       </li>
                       <li className="nav-item">
                         <Link to="PressRoom" className="nav-link scroll">
@@ -194,9 +203,9 @@ export default function Navbar({ Switch, setMove }) {
                         </Link>
                       </li>
                       <li className="nav-item">
-                        <Link to="Contact" className="nav-link scroll">
+                        <a href="Home/#contact-sec" className="nav-link scroll">
                           CONTACT
-                        </Link>
+                        </a>
                       </li>
                     </ul>
                   </nav>

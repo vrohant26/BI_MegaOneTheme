@@ -3,11 +3,14 @@ import LeaveaMessage from "./LeaveaMessage";
 import Contact from "./Contact";
 
 export default function ContactSection() {
-  window.scrollTo({ top: 0, behavior: "smooth" });
+  // window.scrollTo({ top: 0, behavior: "smooth" });
 
   return (
     <>
-      <section className="contact-sec  padding-top padding-bottom">
+      <section
+        className="contact-sec  padding-top padding-bottom"
+        id="contact-sec"
+      >
         <div className="container">
           <div className="row">
             <div className="col-12 col-lg-6 mb-5 text-center text-lg-left position-relative">

@@ -15,7 +15,7 @@ export default function Contact() {
       </select>
 
       <img
-        src="./assets/creative-startup/img/contact-background.png"
+        src="/assets/creative-startup/img/contact-background.png"
         className="contact-background"
         alt="contact"
       />

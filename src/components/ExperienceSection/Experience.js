@@ -3,8 +3,8 @@ import { experience } from "../../Data";
 import CountUp from "react-countup";
 
 export default function Experience() {
-  // const [bool, setbool] = useState(true);
   const [exp, setexp] = useState(experience[1]);
+  // const [active, setActive] = useState(false);
 
   const healthcare = () => {
     // setbool(!bool);
@@ -21,6 +21,7 @@ export default function Experience() {
   };
   const covid = () => {
     // setbool(!bool);
+
     setexp(experience[3]);
   };
 
@@ -56,7 +57,7 @@ export default function Experience() {
                 <div className="row my-3 text-white text-center">
                   <div className="col-lg-12">
                     <h4 className="card-heading">Select Experience</h4>
-                    <ul className="experience-submenu">
+                    <ul id="myDIV" className="experience-submenu">
                       <li onClick={consumer}>Consumer</li>
                       <li onClick={healthcare}>Healthcare</li>
                       <li onClick={nonproprietary}>Non-Proprietary</li>

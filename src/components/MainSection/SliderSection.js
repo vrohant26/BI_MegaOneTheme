@@ -16,7 +16,7 @@ export default function SliderSection() {
   }, []);
 
   useEffect(() => {
-    AddLibrary("./assets/creative-startup/js/script.js");
+    AddLibrary("/assets/creative-startup/js/script.js");
     return () => {
       AddLibrary("");
     };
@@ -104,13 +104,13 @@ export default function SliderSection() {
               data-depth="0.1"
             >
               <div className="img-slide">
-                <img src="./assets/creative-startup/img/slide1.jpg" alt="..." />
+                <img src="/assets/creative-startup/img/slide1.jpg" alt="..." />
               </div>
               <div className="img-slide">
-                <img src="./assets/creative-startup/img/slide2.jpg" alt="..." />
+                <img src="/assets/creative-startup/img/slide2.jpg" alt="..." />
               </div>
               <div className="img-slide">
-                <img src="./assets/creative-startup/img/slide3.jpg" alt="..." />
+                <img src="/assets/creative-startup/img/slide3.jpg" alt="..." />
               </div>
             </div>
           </div>
@@ -140,42 +140,42 @@ export default function SliderSection() {
             <div className="box">
               <span>FDA</span>
               <img
-                src="./assets/creative-startup/img/85-FDA-removebg-preview.png"
+                src="/assets/creative-startup/img/85-FDA-removebg-preview.png"
                 alt="country"
               />
             </div>
             <div className="box">
               <span>EMA</span>
               <img
-                src="./assets/creative-startup/img/75-EMA-removebg-preview.png"
+                src="/assets/creative-startup/img/75-EMA-removebg-preview.png"
                 alt="country"
               />
             </div>
             <div className="box">
               <span>Health Canada</span>
               <img
-                src="./assets/creative-startup/img/95-HC-removebg-preview.png"
+                src="/assets/creative-startup/img/95-HC-removebg-preview.png"
                 alt="country"
               />
             </div>
             <div className="box">
               <span>Japan's MHLW</span>
               <img
-                src="./assets/creative-startup/img/74-JAPAN-removebg-preview.png"
+                src="/assets/creative-startup/img/74-JAPAN-removebg-preview.png"
                 alt="country"
               />
             </div>
             <div className="box">
               <span>Anvisa</span>
               <img
-                src="./assets/creative-startup/img/74-ANVISA-removebg-preview.png"
+                src="/assets/creative-startup/img/74-ANVISA-removebg-preview.png"
                 alt="country"
               />
             </div>
             <div className="box">
               <span>Russia</span>
               <img
-                src="./assets/creative-startup/img/65-RUSSIA-removebg-preview.png"
+                src="/assets/creative-startup/img/65-RUSSIA-removebg-preview.png"
                 alt="country"
               />
             </div>
@@ -184,35 +184,35 @@ export default function SliderSection() {
             <div className="box">
               <span>India</span>
               <img
-                src="./assets/creative-startup/img/70-India-removebg-preview.png"
+                src="/assets/creative-startup/img/70-India-removebg-preview.png"
                 alt="country"
               />
             </div>
             <div className="box">
               <span>China</span>
               <img
-                src="./assets/creative-startup/img/74-China-removebg-preview.png"
+                src="/assets/creative-startup/img/74-China-removebg-preview.png"
                 alt="country"
               />
             </div>
             <div className="box">
               <span>Korea</span>
               <img
-                src="./assets/creative-startup/img/77-Korea-removebg-preview.png"
+                src="/assets/creative-startup/img/77-Korea-removebg-preview.png"
                 alt="country"
               />
             </div>
             <div className="box">
               <span>USAN</span>
               <img
-                src="./assets/creative-startup/img/73-USAN-removebg-preview.png"
+                src="/assets/creative-startup/img/73-USAN-removebg-preview.png"
                 alt="country"
               />
             </div>
             <div className="box">
               <span>INN</span>
               <img
-                src="./assets/creative-startup/img/78-INN-removebg-preview.png"
+                src="/assets/creative-startup/img/78-INN-removebg-preview.png"
                 alt="country"
               />
             </div>
@@ -375,7 +375,7 @@ export default function SliderSection() {
             <div className="col-12 col-lg-9">
               <div className="blog-img wow fadeInRight">
                 {/* <img
-                  src="./assets/creative-startup/img/blog1.png"
+                  src="/assets/creative-startup/img/blog1.png"
                   alt="blog-img"
                 /> */}
                 <div className="articles">
@@ -437,13 +437,7 @@ export default function SliderSection() {
         </div>
       </section>
 
-      {/* <section className="contact-sec padding-bottom">
-        <div className="container">
-          <div className="row"> */}
       <ContactSection />
-      {/* </div>
-        </div>
-      </section> */}
     </>
   );
 }

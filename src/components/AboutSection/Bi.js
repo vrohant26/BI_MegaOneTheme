@@ -93,6 +93,7 @@ export default function Bi({ move }) {
               </div>
             </div>
           </div>
+
           <div className={`divisional-leadership-team ${move ? "" : "d-none"}`}>
             <h4 className="text-center py-5">Divisional Leadership Team</h4>
             <div className="team-profile">
@@ -166,6 +167,7 @@ export default function Bi({ move }) {
               </div>
             </div>
           </div>
+
           <div
             className={`divisional-leadership-team mt-5 ${
               move ? "" : "d-none"

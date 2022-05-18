@@ -10,7 +10,7 @@ export default function SelectExperience() {
 
   const [sendData, setsendData] = useState(experience[0].healthcare);
 
-  const ShowHealthcare = () => {
+  const ShowHealthcare = (e) => {
     setsendData(experience[0].healthcare);
     executeScroll();
   };
@@ -46,7 +46,7 @@ export default function SelectExperience() {
                   <div onClick={ShowHealthcare} className="service-card">
                     <div className="icon-holder">
                       <img
-                        src="./assets/creative-startup/img/healthcare.png"
+                        src="/assets/creative-startup/img/healthcare.png"
                         alt="..."
                         width={100}
                       />
@@ -57,7 +57,7 @@ export default function SelectExperience() {
                   <div onClick={ShowCovid} className="service-card">
                     <div className="icon-holder">
                       <img
-                        src="./assets/creative-startup/img/mask.png"
+                        src="/assets/creative-startup/img/mask.png"
                         alt="..."
                         width={100}
                       />
@@ -71,7 +71,7 @@ export default function SelectExperience() {
                   <div onClick={ShowConsumer} className="service-card">
                     <div className="icon-holder">
                       <img
-                        src="./assets/creative-startup/img/people.png"
+                        src="/assets/creative-startup/img/people.png"
                         alt="..."
                         width={100}
                       />
@@ -82,7 +82,7 @@ export default function SelectExperience() {
                   <div onClick={ShowCoopid} className="service-card">
                     <div className="icon-holder">
                       <img
-                        src="./assets/creative-startup/img/office-building.png"
+                        src="/assets/creative-startup/img/office-building.png"
                         alt="..."
                         width={100}
                       />

@@ -46,9 +46,9 @@
 /* ===================================
     Scrollbar
 ====================================== */
-/*html{*/
-/*    scroll-behavior: smooth;*/
-/*}*/
+html {
+  scroll-behavior: smooth;
+}
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -234,6 +234,10 @@ ul {
   transition: all 0.5s ease-in-out;
 }
 
+.bg-white {
+  background-color: white !important;
+}
+
 .thead-blue {
   background-color: #1e3d7d;
 }
@@ -267,6 +271,10 @@ ul {
 
 .text-lightblue {
   color: #0d98dd;
+}
+
+.text-blue {
+  color: #1e3d7d !important;
 }
 
 .bg-gray {
@@ -2979,8 +2987,6 @@ header
   bottom: 50px;
   padding: 0px 10px;
   width: 1000px;
-  /* left: 46%;
-  transform: translate(-50%, 0); */
   left: 0;
   right: 10vw;
   margin: 0 auto;
@@ -2990,8 +2996,6 @@ header
   color: #e48210;
   font-size: 16px;
   font-weight: 400;
-  /* border-right: 1px solid white; */
-  /* padding: 0 5px; */
 }
 
 .vdivide {
@@ -3235,6 +3239,43 @@ header
   width: 100vw;
 }
 
+.selectExperience {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.splashHeadding {
+  font-size: 40px !important;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  color: #1e3d7d;
+}
+
+.button {
+  border: 1px solid #003082;
+  border-radius: 30px;
+  padding: 15px;
+  font-size: 24px;
+}
+
+.button-blue {
+  background-color: #003082;
+  color: white !important;
+}
+
+.button-blue:hover,
+.button-outline-blue:hover {
+  opacity: 0.9;
+}
+
+.button-outline-blue {
+  background-color: white;
+  color: #003082;
+}
+
 /* Safari */
 @-webkit-keyframes spin {
   0% {
@@ -3284,6 +3325,14 @@ header
 .experience-submenu li:hover {
   cursor: pointer;
   color: white;
+}
+
+.ptb-50 {
+  padding: 50px 0;
+}
+
+.active {
+  color: white !important;
 }
 
 @media screen and (max-width: 1200px) {

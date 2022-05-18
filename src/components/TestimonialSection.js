@@ -40,7 +40,7 @@ export default function TestimonialSection() {
                         </p>
                         <div className="img-holder">
                           <img
-                            src="./assets/creative-startup/img/test1.jpg"
+                            src="/assets/creative-startup/img/test1.jpg"
                             alt="..."
                           />
                         </div>
@@ -59,7 +59,7 @@ export default function TestimonialSection() {
                         </p>
                         <div className="img-holder">
                           <img
-                            src="./assets/creative-startup/img/test2.jpg"
+                            src="/assets/creative-startup/img/test2.jpg"
                             alt="..."
                           />
                         </div>

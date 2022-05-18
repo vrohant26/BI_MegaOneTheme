@@ -5,6 +5,7 @@ import LeaveaMessage from "../../ContactSection/LeaveaMessage";
 
 export default function CityInfo() {
   const { cityname } = useParams();
+
   const navigate = useNavigate();
 
   const [loading, setloading] = useState(false);
