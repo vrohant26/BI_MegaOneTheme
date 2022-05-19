@@ -22,23 +22,25 @@ export default function SplashScreen() {
               <Link
                 to="Healthcare/Home"
                 className="btn anim-btn bg-blue rounded-pill mx-3"
+                style={{ color: "white" }}
               >
                 HEALTHCARE
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
+                <span className="bg-yellow"></span>
+                <span className="bg-yellow"></span>
+                <span className="bg-yellow"></span>
+                <span className="bg-yellow"></span>
               </Link>
 
               <Link
                 to=""
                 className="btn font-lg anim-btn bg-yellow rounded-pill mx-3"
+                style={{ color: "white" }}
               >
                 CONSUMER
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
+                <span className="bg-blue"></span>
+                <span className="bg-blue"></span>
+                <span className="bg-blue"></span>
+                <span className="bg-blue"></span>
               </Link>
             </div>
             <div className="socials ">

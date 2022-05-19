@@ -74,7 +74,6 @@ export default function LeaveaMessage() {
             <span></span>
             <span></span>
             <span></span>
-            <span></span>
           </a>
         </div>
       </form>

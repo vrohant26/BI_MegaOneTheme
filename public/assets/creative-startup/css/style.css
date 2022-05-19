@@ -234,6 +234,10 @@ ul {
   transition: all 0.5s ease-in-out;
 }
 
+.text-white {
+  color: white !important;
+}
+
 .bg-white {
   background-color: white !important;
 }
