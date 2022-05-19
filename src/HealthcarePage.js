@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import { Outlet } from "react-router";
 import Footer from "./components/Footer";
-import SliderSection from "./components/MainSection/SliderSection";
 import Navbar from "./components/Navbar";
+import ScrollTop from "./components/ScrollTop";
 
 export default function HealthcarePage({ setMove, Switch }) {
   return (
@@ -10,6 +10,7 @@ export default function HealthcarePage({ setMove, Switch }) {
       <Navbar setMove={setMove} Switch={Switch} />
       <Outlet />
       <Footer />
+      <ScrollTop />
     </>
   );
 }

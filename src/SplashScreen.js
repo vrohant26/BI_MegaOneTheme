@@ -30,7 +30,10 @@ export default function SplashScreen() {
                 <span></span>
               </Link>
 
-              <Link to="" className="btn anim-btn bg-yellow rounded-pill mx-3">
+              <Link
+                to=""
+                className="btn font-lg anim-btn bg-yellow rounded-pill mx-3"
+              >
                 CONSUMER
                 <span></span>
                 <span></span>

@@ -1,54 +1,47 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { experience } from "../../Data";
 import CountUp from "react-countup";
 
 export default function Experience() {
   const [exp, setexp] = useState(experience[1]);
-  // const [active, setActive] = useState(false);
+  const activehealth = useRef();
+  const activecons = useRef();
+  const activenon = useRef();
+  const activecovid = useRef();
 
   const healthcare = () => {
-    // setbool(!bool);
     setexp(experience[0]);
+    activehealth.current.classList.add("active");
+    activecons.current.classList.remove("active");
+    activenon.current.classList.remove("active");
+    activecovid.current.classList.remove("active");
   };
   const consumer = () => {
-    // setbool(!bool);
     setexp(experience[1]);
+    activehealth.current.classList.remove("active");
+    activecons.current.classList.add("active");
+    activenon.current.classList.remove("active");
+    activecovid.current.classList.remove("active");
   };
 
   const nonproprietary = () => {
-    // setbool(!bool);
     setexp(experience[2]);
+    activehealth.current.classList.remove("active");
+    activecons.current.classList.remove("active");
+    activenon.current.classList.add("active");
+    activecovid.current.classList.remove("active");
   };
   const covid = () => {
-    // setbool(!bool);
-
     setexp(experience[3]);
+    activehealth.current.classList.remove("active");
+    activecons.current.classList.remove("active");
+    activenon.current.classList.remove("active");
+    activecovid.current.classList.add("active");
   };
 
   return (
     <>
       <div className="slider-area overflow-clip" id="About-sec">
-        {/* <div className={bool ? "go-right " : "go-left"}> */}
-        {/* <div className="d-flex ">
-          <div className="w-100">
-            <ExperienceInfo
-              healthcare={healthcare}
-              consumer={consumer}
-              bool={bool}
-              info={exp[0]}
-              stats={exp[1]}
-            />
-          </div>
-          <div className="w-100">
-              <ExperienceInfo
-                healthcare={healthcare}
-                consumer={consumer}
-                bool={bool}
-                info={exp[0]}
-                stats={exp[1]}
-              />
-            </div>
-        </div> */}
         <section className="bg-blue">
           <div className="container-fluid position-relative ">
             <div className="container main">
@@ -58,10 +51,22 @@ export default function Experience() {
                   <div className="col-lg-12">
                     <h4 className="card-heading">Select Experience</h4>
                     <ul id="myDIV" className="experience-submenu">
-                      <li onClick={consumer}>Consumer</li>
-                      <li onClick={healthcare}>Healthcare</li>
-                      <li onClick={nonproprietary}>Non-Proprietary</li>
-                      <li onClick={covid}>Covid-19</li>
+                      <li
+                        ref={activecons}
+                        className="active"
+                        onClick={consumer}
+                      >
+                        Consumer
+                      </li>
+                      <li ref={activehealth} onClick={healthcare}>
+                        Healthcare
+                      </li>
+                      <li ref={activenon} onClick={nonproprietary}>
+                        Non-Proprietary
+                      </li>
+                      <li ref={activecovid} onClick={covid}>
+                        Covid-19
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -146,7 +151,6 @@ export default function Experience() {
           </div>
         </section>
       </div>
-      {/* </div> */}
     </>
   );
 }

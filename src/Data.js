@@ -118,7 +118,7 @@ export const experience = [
       "Including nonproprietary (USAN/INN) names, drug brand names, medical device names, OTC product names, and COVID-19 vaccines, repurposed drugs, and diagnostics! We name over 75% of nonproprietary (USAN/INN) and drug brand name approvals worldwide!",
     Stats: [
       { Number: 1152, Topic: "Healthcare Clients" },
-      { Number: 3965, Topic: "Total Healthcare Names" },
+      { Number: 3972, Topic: "Total Healthcare Names" },
       { Number: 1290, Topic: "USAN/INN Names" },
     ],
     healthcare: [
