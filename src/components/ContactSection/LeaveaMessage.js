@@ -64,7 +64,7 @@ export default function LeaveaMessage() {
         <div className="col-12 ">
           <a
             href="!#"
-            className="btn purple-btn bg-blue rounded-pill w-100 contact_btn"
+            className="btn purple-btn anim-btn bg-blue rounded-pill w-100 contact_btn"
           >
             <i
               className="fa fa-spinner fa-spin mr-2 d-none"

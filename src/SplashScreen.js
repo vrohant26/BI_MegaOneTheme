@@ -15,17 +15,28 @@ export default function SplashScreen() {
               BRAND INSTITUTE <br /> THE WORLD's NUMBER 1 NAMING COMPANY
             </h2>
             <div className="SplashButtons ">
-              <h4 className="text-center splashHeadding my-3">
+              <h4 className="text-center splashHeadding my-4">
                 Select Experience
               </h4>
 
-              <Link to="Healthcare/Home" className=" button button-blue mx-3">
-                Healthcare
+              <Link
+                to="Healthcare/Home"
+                className="btn anim-btn bg-blue rounded-pill mx-3"
+              >
+                HEALTHCARE
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
               </Link>
 
-              <button className=" button-outline-blue button mx-3">
-                Consumer
-              </button>
+              <Link to="" className="btn anim-btn bg-yellow rounded-pill mx-3">
+                CONSUMER
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </Link>
             </div>
             <div className="socials ">
               <div className="footer-social text-center text-lg-left mb-2">
@@ -33,7 +44,7 @@ export default function SplashScreen() {
                   Connect with us :
                   <li>
                     <a
-                      href="!#"
+                      href="/#"
                       className=" d-flex justify-content-center align-items-center wow fadeInDown"
                     >
                       <i aria-hidden="true" className="fab fa-linkedin-in"></i>

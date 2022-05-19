@@ -126,7 +126,7 @@ export default function SliderSection() {
         <CityList />
       </section>
 
-      <Select />
+      {/* <Select /> */}
 
       <div className="container pt-9 ">
         <div className="approvals">
@@ -267,7 +267,7 @@ export default function SliderSection() {
         <div className="divider mt-5"></div>
       </div>
 
-      <div className="position-relative pt-9">
+      {/* <div className="position-relative pt-9">
         <div className="container">
           <div>
             <div className="row">
@@ -287,7 +287,7 @@ export default function SliderSection() {
           </div>
           <div className="divider mt-5"></div>
         </div>
-      </div>
+      </div> */}
 
       <StatsSection />
       <TeamSection />

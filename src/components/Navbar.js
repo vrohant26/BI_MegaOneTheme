@@ -115,7 +115,7 @@ export default function Navbar({ Switch, setMove }) {
                           <a
                             // onClick={locate}
                             className="nav-link scroll"
-                            href="Home/#services-sec"
+                            href="//localhost:3000/Healthcare/Home/#services-sec"
                           >
                             SERVICES
                           </a>
@@ -132,7 +132,7 @@ export default function Navbar({ Switch, setMove }) {
                         </li>
                         <li className="nav-item">
                           <a
-                            href="Home/#contact-sec"
+                            href="//localhost:3000/Healthcare/Home/#contact-sec"
                             className="nav-link scroll"
                           >
                             CONTACT
@@ -187,7 +187,7 @@ export default function Navbar({ Switch, setMove }) {
                       <li className="nav-item">
                         <a
                           className="nav-link  scroll"
-                          href="Home/#services-sec"
+                          href="//localhost:3000/Healthcare/Home/#services-sec"
                         >
                           SERVICES
                         </a>
@@ -203,7 +203,10 @@ export default function Navbar({ Switch, setMove }) {
                         </Link>
                       </li>
                       <li className="nav-item">
-                        <a href="Home/#contact-sec" className="nav-link scroll">
+                        <a
+                          href="//localhost:3000/Healthcare/Home/#contact-sec"
+                          className="nav-link scroll"
+                        >
                           CONTACT
                         </a>
                       </li>
