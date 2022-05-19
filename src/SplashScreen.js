@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import logo from "./white-logo.png";
 
 export default function SplashScreen() {
@@ -19,8 +18,8 @@ export default function SplashScreen() {
                 Select Experience
               </h4>
 
-              <Link
-                to="Healthcare/Home"
+              <a
+                href="//localhost:3000/Healthcare/Home"
                 className="btn anim-btn bg-blue rounded-pill mx-3"
                 style={{ color: "white" }}
               >
@@ -29,10 +28,10 @@ export default function SplashScreen() {
                 <span className="bg-yellow"></span>
                 <span className="bg-yellow"></span>
                 <span className="bg-yellow"></span>
-              </Link>
+              </a>
 
-              <Link
-                to=""
+              <a
+                href="/#"
                 className="btn font-lg anim-btn bg-yellow rounded-pill mx-3"
                 style={{ color: "white" }}
               >
@@ -41,7 +40,7 @@ export default function SplashScreen() {
                 <span className="bg-blue"></span>
                 <span className="bg-blue"></span>
                 <span className="bg-blue"></span>
-              </Link>
+              </a>
             </div>
             <div className="socials ">
               <div className="footer-social text-center text-lg-left mb-2">
